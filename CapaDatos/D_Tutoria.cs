@@ -63,6 +63,7 @@ namespace CapaDatos
             SqlCommand cmd = new SqlCommand("SP_INSERTARTUTORIA", conexion);
             cmd.CommandType = CommandType.StoredProcedure;
             conexion.Open();
+            cmd.Parameters.AddWithValue("@IDTUTORIA", tutoria.IdTutoria);
             cmd.Parameters.AddWithValue("@IDDOCENTE", tutoria.IdDocente);
             cmd.Parameters.AddWithValue("@HORARIO", tutoria.Horario);
 
@@ -109,6 +110,18 @@ namespace CapaDatos
             da.Fill(tabla);
             conexion.Close();
             return tabla;
+        }
+        public string Nuevo()
+        {
+            string codigo;
+            SqlCommand cmd = new SqlCommand("NuevoTutoria", conexion);
+            cmd.CommandType = CommandType.StoredProcedure;
+            conexion.Open();
+            cmd.CommandTimeout = 30;
+            SqlCommandBuilder.DeriveParameters(cmd);
+            cmd.ExecuteNonQuery();
+            conexion.Close();
+            return (string)cmd.Parameters["@RETURN_VALUE"].Value;
         }
     }
 }

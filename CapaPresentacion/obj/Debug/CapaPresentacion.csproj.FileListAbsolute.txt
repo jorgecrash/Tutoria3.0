@@ -504,6 +504,40 @@ D:\DESARROLLO DE SOFTWARE I\git 2.0\TUTORIA2.0\CapaPresentacion\obj\Debug\CapaPr
 D:\DESARROLLO DE SOFTWARE I\git 2.0\TUTORIA2.0\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 D:\DESARROLLO DE SOFTWARE I\git 2.0\TUTORIA2.0\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 D:\DESARROLLO DE SOFTWARE I\git 2.0\TUTORIA2.0\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaEntidades.dll
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaEntidades.pdb
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmWelcome.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBuscarEstudianteTutoria.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmDocente.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEstudiante.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmFicha.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmHistorialEstudianteTutoria.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInformation.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMain.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMantDocente.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMantEstudiante.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMantFicha.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMantRegistro.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMantTutoria.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmRegistro.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmSuccess.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.FrmTutoria.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
 C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaPresentacion.exe
 C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaPresentacion\bin\Debug\CapaPresentacion.pdb

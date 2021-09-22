@@ -39,5 +39,10 @@ namespace CapaNegocio
           data.DeleteDocente(id);
           
         }
+
+        public string New()
+        {
+            return data.Nuevo();
+        }
     }
 }
