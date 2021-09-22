@@ -110,7 +110,7 @@ namespace CapaPresentacion
 
         private void btnExportarCSV_Click(object sender, EventArgs e)
         {
-            ofdInsertar.ShowDialog();
+            if (ofdInsertar.ShowDialog() == DialogResult.Cancel) return;
             lblUbicacionCSV.Text = ofdInsertar.FileName;//muestra el nombre del archivo en un label
             lblUbicacionCSV.Visible = true;
             DatosCSV(lblUbicacionCSV.Text);

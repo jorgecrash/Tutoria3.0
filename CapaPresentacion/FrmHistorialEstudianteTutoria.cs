@@ -45,5 +45,10 @@ namespace CapaPresentacion
             cGuardarDatos.TipoTutoriaHistorial = TablaHistorial.Rows[e.RowIndex].Cells["TipoTutoria"].Value.ToString();
 
         }
+
+        private void cerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
