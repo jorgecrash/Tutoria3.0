@@ -45,5 +45,9 @@ namespace CapaNegocio
         {
             return data.ListDocenteTutoria();
         }
+        public string New()
+        {
+            return data.Nuevo();
+        }
     }
 }
