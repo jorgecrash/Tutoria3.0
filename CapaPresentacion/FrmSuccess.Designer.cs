@@ -31,11 +31,11 @@ namespace CapaPresentacion
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSuccess));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnOk = new Bunifu.Framework.UI.BunifuFlatButton();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnOk = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,6 +52,42 @@ namespace CapaPresentacion
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(273, 165);
             this.panel1.TabIndex = 0;
+            // 
+            // btnOk
+            // 
+            this.btnOk.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(128)))), ((int)(((byte)(175)))));
+            this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.btnOk.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnOk.BorderRadius = 0;
+            this.btnOk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnOk.ButtonText = "                        Aceptar";
+            this.btnOk.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOk.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.btnOk.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnOk.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnOk.Iconimage")));
+            this.btnOk.Iconimage_right = null;
+            this.btnOk.Iconimage_right_Selected = null;
+            this.btnOk.Iconimage_Selected = null;
+            this.btnOk.IconMarginLeft = 0;
+            this.btnOk.IconMarginRight = 0;
+            this.btnOk.IconRightVisible = true;
+            this.btnOk.IconRightZoom = 0D;
+            this.btnOk.IconVisible = true;
+            this.btnOk.IconZoom = 100D;
+            this.btnOk.IsTab = false;
+            this.btnOk.Location = new System.Drawing.Point(0, 135);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.btnOk.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(79)))), ((int)(((byte)(111)))));
+            this.btnOk.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnOk.selected = false;
+            this.btnOk.Size = new System.Drawing.Size(273, 30);
+            this.btnOk.TabIndex = 6;
+            this.btnOk.Text = "                        Aceptar";
+            this.btnOk.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOk.Textcolor = System.Drawing.Color.White;
+            this.btnOk.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // label1
             // 
@@ -97,42 +133,6 @@ namespace CapaPresentacion
             this.label2.TabIndex = 1;
             this.label2.Text = "!ACCION COMPLETADA!";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnOk
-            // 
-            this.btnOk.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(128)))), ((int)(((byte)(175)))));
-            this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.btnOk.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnOk.BorderRadius = 0;
-            this.btnOk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnOk.ButtonText = "                        Angel";
-            this.btnOk.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOk.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.btnOk.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnOk.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnOk.Iconimage")));
-            this.btnOk.Iconimage_right = null;
-            this.btnOk.Iconimage_right_Selected = null;
-            this.btnOk.Iconimage_Selected = null;
-            this.btnOk.IconMarginLeft = 0;
-            this.btnOk.IconMarginRight = 0;
-            this.btnOk.IconRightVisible = true;
-            this.btnOk.IconRightZoom = 0D;
-            this.btnOk.IconVisible = true;
-            this.btnOk.IconZoom = 100D;
-            this.btnOk.IsTab = false;
-            this.btnOk.Location = new System.Drawing.Point(0, 135);
-            this.btnOk.Name = "btnOk";
-            this.btnOk.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.btnOk.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(79)))), ((int)(((byte)(111)))));
-            this.btnOk.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnOk.selected = false;
-            this.btnOk.Size = new System.Drawing.Size(273, 30);
-            this.btnOk.TabIndex = 6;
-            this.btnOk.Text = "                        Angel";
-            this.btnOk.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOk.Textcolor = System.Drawing.Color.White;
-            this.btnOk.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // FrmSuccess
             // 
