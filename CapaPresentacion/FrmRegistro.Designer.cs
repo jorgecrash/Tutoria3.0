@@ -32,32 +32,32 @@ namespace CapaPresentacion
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegistro));
             this.panel_Principal = new System.Windows.Forms.Panel();
-            this.TablaRegistro = new System.Windows.Forms.DataGridView();
-            this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
-            this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.textBuscar = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnNuevoDocentes = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.TablaRegistro = new System.Windows.Forms.DataGridView();
+            this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
+            this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel_Principal.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TablaRegistro)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TablaRegistro)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_Principal
             // 
+            this.panel_Principal.Controls.Add(this.TablaRegistro);
             this.panel_Principal.Controls.Add(this.panel7);
             this.panel_Principal.Controls.Add(this.panel8);
-            this.panel_Principal.Controls.Add(this.TablaRegistro);
             this.panel_Principal.Controls.Add(this.panel9);
             this.panel_Principal.Controls.Add(this.panel5);
             this.panel_Principal.Controls.Add(this.panel4);
@@ -70,55 +70,23 @@ namespace CapaPresentacion
             this.panel_Principal.Size = new System.Drawing.Size(1040, 612);
             this.panel_Principal.TabIndex = 0;
             // 
-            // TablaRegistro
+            // panel7
             // 
-            this.TablaRegistro.AllowUserToAddRows = false;
-            this.TablaRegistro.AllowUserToOrderColumns = true;
-            this.TablaRegistro.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.TablaRegistro.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.TablaRegistro.BackgroundColor = System.Drawing.Color.White;
-            this.TablaRegistro.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TablaRegistro.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.TablaRegistro.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.TablaRegistro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaRegistro.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.EDITAR,
-            this.ELIMINAR});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TablaRegistro.DefaultCellStyle = dataGridViewCellStyle1;
-            this.TablaRegistro.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TablaRegistro.Location = new System.Drawing.Point(19, 95);
-            this.TablaRegistro.Name = "TablaRegistro";
-            this.TablaRegistro.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.TablaRegistro.RowHeadersVisible = false;
-            this.TablaRegistro.RowHeadersWidth = 51;
-            this.TablaRegistro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.TablaRegistro.Size = new System.Drawing.Size(1002, 478);
-            this.TablaRegistro.TabIndex = 33;
-            this.TablaRegistro.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaRegistro_CellContentClick);
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel7.Location = new System.Drawing.Point(19, 95);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(5, 478);
+            this.panel7.TabIndex = 35;
             // 
-            // EDITAR
+            // panel8
             // 
-            this.EDITAR.HeaderText = "EDITAR";
-            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
-            this.EDITAR.MinimumWidth = 6;
-            this.EDITAR.Name = "EDITAR";
-            this.EDITAR.Width = 69;
-            // 
-            // ELIMINAR
-            // 
-            this.ELIMINAR.HeaderText = "ELIMINAR";
-            this.ELIMINAR.Image = ((System.Drawing.Image)(resources.GetObject("ELIMINAR.Image")));
-            this.ELIMINAR.MinimumWidth = 6;
-            this.ELIMINAR.Name = "ELIMINAR";
-            this.ELIMINAR.Width = 80;
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel8.Location = new System.Drawing.Point(1016, 95);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(5, 478);
+            this.panel8.TabIndex = 34;
             // 
             // panel9
             // 
@@ -141,60 +109,6 @@ namespace CapaPresentacion
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1002, 76);
             this.panel5.TabIndex = 29;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.SeaShell;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(1021, 19);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(19, 574);
-            this.panel4.TabIndex = 11;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.SeaShell;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 19);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(19, 574);
-            this.panel3.TabIndex = 10;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.SeaShell;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 593);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1040, 19);
-            this.panel2.TabIndex = 9;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.SeaShell;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1040, 19);
-            this.panel1.TabIndex = 8;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel8.Location = new System.Drawing.Point(1016, 95);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(5, 478);
-            this.panel8.TabIndex = 34;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel7.Location = new System.Drawing.Point(19, 95);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(5, 478);
-            this.panel7.TabIndex = 35;
             // 
             // panel6
             // 
@@ -264,6 +178,91 @@ namespace CapaPresentacion
             this.btnNuevoDocentes.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevoDocentes.Click += new System.EventHandler(this.btnRegistrarEstudianteATutoria_Click);
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.SeaShell;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(1021, 19);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(19, 574);
+            this.panel4.TabIndex = 11;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.SeaShell;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 19);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(19, 574);
+            this.panel3.TabIndex = 10;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.SeaShell;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 593);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1040, 19);
+            this.panel2.TabIndex = 9;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.SeaShell;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1040, 19);
+            this.panel1.TabIndex = 8;
+            // 
+            // TablaRegistro
+            // 
+            this.TablaRegistro.AllowUserToAddRows = false;
+            this.TablaRegistro.AllowUserToOrderColumns = true;
+            this.TablaRegistro.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.TablaRegistro.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
+            this.TablaRegistro.BackgroundColor = System.Drawing.Color.White;
+            this.TablaRegistro.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TablaRegistro.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.TablaRegistro.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.TablaRegistro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.TablaRegistro.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.EDITAR,
+            this.ELIMINAR});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TablaRegistro.DefaultCellStyle = dataGridViewCellStyle1;
+            this.TablaRegistro.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TablaRegistro.Location = new System.Drawing.Point(24, 95);
+            this.TablaRegistro.Name = "TablaRegistro";
+            this.TablaRegistro.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.TablaRegistro.RowHeadersVisible = false;
+            this.TablaRegistro.RowHeadersWidth = 51;
+            this.TablaRegistro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.TablaRegistro.Size = new System.Drawing.Size(992, 478);
+            this.TablaRegistro.TabIndex = 36;
+            // 
+            // EDITAR
+            // 
+            this.EDITAR.HeaderText = "EDITAR";
+            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
+            this.EDITAR.MinimumWidth = 6;
+            this.EDITAR.Name = "EDITAR";
+            this.EDITAR.Width = 69;
+            // 
+            // ELIMINAR
+            // 
+            this.ELIMINAR.HeaderText = "ELIMINAR";
+            this.ELIMINAR.Image = ((System.Drawing.Image)(resources.GetObject("ELIMINAR.Image")));
+            this.ELIMINAR.MinimumWidth = 6;
+            this.ELIMINAR.Name = "ELIMINAR";
+            this.ELIMINAR.Width = 80;
+            // 
             // FrmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -274,10 +273,10 @@ namespace CapaPresentacion
             this.Name = "FrmRegistro";
             this.Text = "FrmRegistro";
             this.panel_Principal.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.TablaRegistro)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TablaRegistro)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -291,14 +290,14 @@ namespace CapaPresentacion
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.DataGridView TablaRegistro;
-        private System.Windows.Forms.DataGridViewImageColumn EDITAR;
-        private System.Windows.Forms.DataGridViewImageColumn ELIMINAR;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.TextBox textBuscar;
         private System.Windows.Forms.PictureBox pictureBox3;
         private Bunifu.Framework.UI.BunifuFlatButton btnNuevoDocentes;
+        private System.Windows.Forms.DataGridView TablaRegistro;
+        private System.Windows.Forms.DataGridViewImageColumn EDITAR;
+        private System.Windows.Forms.DataGridViewImageColumn ELIMINAR;
     }
 }
