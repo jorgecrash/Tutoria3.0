@@ -203,5 +203,10 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void topFormulario_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
