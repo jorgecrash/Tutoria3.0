@@ -95,7 +95,7 @@ namespace CapaPresentacion
             this.btnGuardar.IconZoom = 90D;
             this.btnGuardar.IsTab = false;
             this.btnGuardar.Location = new System.Drawing.Point(355, 439);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(5);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Normalcolor = System.Drawing.Color.SeaGreen;
             this.btnGuardar.OnHovercolor = System.Drawing.Color.SeaGreen;
@@ -150,7 +150,7 @@ namespace CapaPresentacion
             this.textApellidos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textApellidos.Location = new System.Drawing.Point(381, 194);
-            this.textApellidos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textApellidos.Margin = new System.Windows.Forms.Padding(4);
             this.textApellidos.Name = "textApellidos";
             this.textApellidos.Size = new System.Drawing.Size(232, 23);
             this.textApellidos.TabIndex = 20;
@@ -161,7 +161,7 @@ namespace CapaPresentacion
             this.textTitulo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textTitulo.Location = new System.Drawing.Point(509, 384);
-            this.textTitulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTitulo.Margin = new System.Windows.Forms.Padding(4);
             this.textTitulo.Name = "textTitulo";
             this.textTitulo.Size = new System.Drawing.Size(232, 23);
             this.textTitulo.TabIndex = 19;
@@ -185,7 +185,7 @@ namespace CapaPresentacion
             this.textNombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textNombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textNombres.Location = new System.Drawing.Point(66, 194);
-            this.textNombres.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textNombres.Margin = new System.Windows.Forms.Padding(4);
             this.textNombres.Name = "textNombres";
             this.textNombres.Size = new System.Drawing.Size(248, 23);
             this.textNombres.TabIndex = 15;
@@ -199,7 +199,7 @@ namespace CapaPresentacion
             this.topFormularioD.Dock = System.Windows.Forms.DockStyle.Top;
             this.topFormularioD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.topFormularioD.Location = new System.Drawing.Point(0, 0);
-            this.topFormularioD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.topFormularioD.Margin = new System.Windows.Forms.Padding(4);
             this.topFormularioD.Name = "topFormularioD";
             this.topFormularioD.Size = new System.Drawing.Size(953, 50);
             this.topFormularioD.TabIndex = 14;
@@ -208,7 +208,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(888, 4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(49, 37);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -220,7 +220,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(57, 186);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(268, 39);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -231,7 +231,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(499, 376);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(261, 39);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -242,7 +242,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(369, 186);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(261, 39);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -265,7 +265,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(48, 272);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(405, 48);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -288,7 +288,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(489, 272);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(413, 47);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -311,7 +311,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(55, 365);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(269, 50);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -363,7 +363,7 @@ namespace CapaPresentacion
             this.btnCancelar.IconZoom = 90D;
             this.btnCancelar.IsTab = false;
             this.btnCancelar.Location = new System.Drawing.Point(666, 439);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(5);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(26)))), ((int)(((byte)(35)))));
             this.btnCancelar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(26)))), ((int)(((byte)(35)))));
@@ -482,10 +482,9 @@ namespace CapaPresentacion
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmMantDocente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmMantDocente";
             this.Load += new System.EventHandler(this.FrmMantDocente_Load);
             this.topFormularioD.ResumeLayout(false);
             this.topFormularioD.PerformLayout();
