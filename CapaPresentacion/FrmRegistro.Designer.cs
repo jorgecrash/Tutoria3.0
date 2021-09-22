@@ -29,7 +29,7 @@ namespace CapaPresentacion
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegistro));
             this.panel_Principal = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -47,6 +47,8 @@ namespace CapaPresentacion
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.panel_Principal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TablaRegistro)).BeginInit();
             this.panel5.SuspendLayout();
@@ -102,15 +104,15 @@ namespace CapaPresentacion
             this.TablaRegistro.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.EDITAR,
             this.ELIMINAR});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TablaRegistro.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(8);
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TablaRegistro.DefaultCellStyle = dataGridViewCellStyle5;
             this.TablaRegistro.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TablaRegistro.Location = new System.Drawing.Point(19, 95);
             this.TablaRegistro.Name = "TablaRegistro";
@@ -150,6 +152,8 @@ namespace CapaPresentacion
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.panel5.Controls.Add(this.panel11);
+            this.panel5.Controls.Add(this.panel10);
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Controls.Add(this.textBuscar);
             this.panel5.Controls.Add(this.pictureBox3);
@@ -172,19 +176,18 @@ namespace CapaPresentacion
             // textBuscar
             // 
             this.textBuscar.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBuscar.Location = new System.Drawing.Point(64, 24);
+            this.textBuscar.Location = new System.Drawing.Point(59, 30);
             this.textBuscar.Multiline = true;
             this.textBuscar.Name = "textBuscar";
             this.textBuscar.Size = new System.Drawing.Size(304, 30);
             this.textBuscar.TabIndex = 37;
-            this.textBuscar.Click += new System.EventHandler(this.textBuscar_TextChanged);
             this.textBuscar.TextChanged += new System.EventHandler(this.textBuscar_TextChanged);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox3.Image = global::CapaPresentacion.Properties.Resources.luupaaaa;
-            this.pictureBox3.Location = new System.Drawing.Point(28, 24);
+            this.pictureBox3.Location = new System.Drawing.Point(23, 30);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(30, 30);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -214,7 +217,7 @@ namespace CapaPresentacion
             this.btnRegistrarEstudianteATutoria.IconZoom = 40D;
             this.btnRegistrarEstudianteATutoria.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnRegistrarEstudianteATutoria.IsTab = false;
-            this.btnRegistrarEstudianteATutoria.Location = new System.Drawing.Point(390, 24);
+            this.btnRegistrarEstudianteATutoria.Location = new System.Drawing.Point(370, 30);
             this.btnRegistrarEstudianteATutoria.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrarEstudianteATutoria.Name = "btnRegistrarEstudianteATutoria";
             this.btnRegistrarEstudianteATutoria.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
@@ -265,6 +268,22 @@ namespace CapaPresentacion
             this.panel1.Size = new System.Drawing.Size(1040, 19);
             this.panel1.TabIndex = 8;
             // 
+            // panel11
+            // 
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel11.Location = new System.Drawing.Point(0, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(21, 60);
+            this.panel11.TabIndex = 41;
+            // 
+            // panel10
+            // 
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel10.Location = new System.Drawing.Point(0, 60);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(997, 16);
+            this.panel10.TabIndex = 40;
+            // 
             // FrmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -301,5 +320,7 @@ namespace CapaPresentacion
         private System.Windows.Forms.DataGridView TablaRegistro;
         private System.Windows.Forms.DataGridViewImageColumn EDITAR;
         private System.Windows.Forms.DataGridViewImageColumn ELIMINAR;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel10;
     }
 }

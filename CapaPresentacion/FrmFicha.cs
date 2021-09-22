@@ -43,8 +43,8 @@ namespace CapaPresentacion
         }
         private void textBuscar_TextChanged(object sender, EventArgs e)
         {
-            BuscarFicha(Buscar.Text);
-            if (Buscar.Text == "")
+            BuscarFicha(textBuscar.Text);
+            if (textBuscar.Text == "")
             {
                 MostrarTablaFicha();
             }

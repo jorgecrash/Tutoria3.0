@@ -43,10 +43,12 @@ namespace CapaPresentacion
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnNuevoDocentes = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.Buscar = new System.Windows.Forms.TextBox();
+            this.textBuscar = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.panel_Principal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TablaFicha)).BeginInit();
             this.panel5.SuspendLayout();
@@ -120,6 +122,7 @@ namespace CapaPresentacion
             this.TablaFicha.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.TablaFicha.Size = new System.Drawing.Size(992, 478);
             this.TablaFicha.TabIndex = 36;
+            this.TablaFicha.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaFicha_CellContentClick);
             // 
             // EDITAR
             // 
@@ -167,9 +170,11 @@ namespace CapaPresentacion
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.panel5.Controls.Add(this.panel11);
+            this.panel5.Controls.Add(this.panel10);
             this.panel5.Controls.Add(this.btnNuevoDocentes);
             this.panel5.Controls.Add(this.panel6);
-            this.panel5.Controls.Add(this.Buscar);
+            this.panel5.Controls.Add(this.textBuscar);
             this.panel5.Controls.Add(this.pictureBox3);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(19, 19);
@@ -185,7 +190,7 @@ namespace CapaPresentacion
             this.btnNuevoDocentes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNuevoDocentes.BorderRadius = 0;
             this.btnNuevoDocentes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnNuevoDocentes.ButtonText = "    Agregar Tutoria";
+            this.btnNuevoDocentes.ButtonText = "    Agregar Ficha de Tutoria";
             this.btnNuevoDocentes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNuevoDocentes.DisabledColor = System.Drawing.Color.Gray;
             this.btnNuevoDocentes.Iconcolor = System.Drawing.Color.Transparent;
@@ -201,16 +206,16 @@ namespace CapaPresentacion
             this.btnNuevoDocentes.IconZoom = 45D;
             this.btnNuevoDocentes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnNuevoDocentes.IsTab = false;
-            this.btnNuevoDocentes.Location = new System.Drawing.Point(383, 30);
+            this.btnNuevoDocentes.Location = new System.Drawing.Point(371, 30);
             this.btnNuevoDocentes.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevoDocentes.Name = "btnNuevoDocentes";
             this.btnNuevoDocentes.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
             this.btnNuevoDocentes.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(79)))), ((int)(((byte)(111)))));
             this.btnNuevoDocentes.OnHoverTextColor = System.Drawing.Color.White;
             this.btnNuevoDocentes.selected = false;
-            this.btnNuevoDocentes.Size = new System.Drawing.Size(179, 30);
+            this.btnNuevoDocentes.Size = new System.Drawing.Size(208, 30);
             this.btnNuevoDocentes.TabIndex = 36;
-            this.btnNuevoDocentes.Text = "    Agregar Tutoria";
+            this.btnNuevoDocentes.Text = "    Agregar Ficha de Tutoria";
             this.btnNuevoDocentes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNuevoDocentes.Textcolor = System.Drawing.Color.White;
             this.btnNuevoDocentes.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -225,16 +230,16 @@ namespace CapaPresentacion
             this.panel6.Size = new System.Drawing.Size(5, 76);
             this.panel6.TabIndex = 39;
             // 
-            // Buscar
+            // textBuscar
             // 
-            this.Buscar.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Buscar.Location = new System.Drawing.Point(60, 30);
-            this.Buscar.Multiline = true;
-            this.Buscar.Name = "Buscar";
-            this.Buscar.Size = new System.Drawing.Size(304, 30);
-            this.Buscar.TabIndex = 37;
-            this.Buscar.Click += new System.EventHandler(this.textBuscar_TextChanged);
-            this.Buscar.TextChanged += new System.EventHandler(this.textBuscar_TextChanged);
+            this.textBuscar.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBuscar.Location = new System.Drawing.Point(60, 30);
+            this.textBuscar.Multiline = true;
+            this.textBuscar.Name = "textBuscar";
+            this.textBuscar.Size = new System.Drawing.Size(304, 30);
+            this.textBuscar.TabIndex = 37;
+            this.textBuscar.Click += new System.EventHandler(this.textBuscar_TextChanged);
+            this.textBuscar.TextChanged += new System.EventHandler(this.textBuscar_TextChanged);
             // 
             // pictureBox3
             // 
@@ -264,6 +269,22 @@ namespace CapaPresentacion
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1040, 19);
             this.panel1.TabIndex = 8;
+            // 
+            // panel11
+            // 
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel11.Location = new System.Drawing.Point(0, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(21, 60);
+            this.panel11.TabIndex = 45;
+            // 
+            // panel10
+            // 
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel10.Location = new System.Drawing.Point(0, 60);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(997, 16);
+            this.panel10.TabIndex = 44;
             // 
             // FrmFicha
             // 
@@ -297,10 +318,12 @@ namespace CapaPresentacion
         private System.Windows.Forms.Panel panel5;
         private Bunifu.Framework.UI.BunifuFlatButton btnNuevoDocentes;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox Buscar;
+        private System.Windows.Forms.TextBox textBuscar;
         private System.Windows.Forms.PictureBox pictureBox3;
         public System.Windows.Forms.DataGridView TablaFicha;
         private System.Windows.Forms.DataGridViewImageColumn EDITAR;
         private System.Windows.Forms.DataGridViewImageColumn ELIMINAR;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel10;
     }
 }

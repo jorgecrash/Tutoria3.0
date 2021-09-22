@@ -57,11 +57,6 @@ namespace CapaPresentacion
             MostrarTablaTutoria();
         }
 
-        private void TablaTutoria_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -83,6 +78,16 @@ namespace CapaPresentacion
         }
 
         private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
         {
 
         }

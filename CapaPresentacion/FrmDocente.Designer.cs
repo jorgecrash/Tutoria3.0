@@ -36,9 +36,6 @@ namespace CapaPresentacion
             this.panel_principal_medio = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.TablaDocente = new System.Windows.Forms.DataGridView();
-            this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
-            this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.textBuscar = new System.Windows.Forms.TextBox();
@@ -50,11 +47,16 @@ namespace CapaPresentacion
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.TablaDocente = new System.Windows.Forms.DataGridView();
+            this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
+            this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel_principal.SuspendLayout();
             this.panel_principal_medio.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TablaDocente)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TablaDocente)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_principal
@@ -72,9 +74,9 @@ namespace CapaPresentacion
             // 
             // panel_principal_medio
             // 
+            this.panel_principal_medio.Controls.Add(this.TablaDocente);
             this.panel_principal_medio.Controls.Add(this.panel7);
             this.panel_principal_medio.Controls.Add(this.panel8);
-            this.panel_principal_medio.Controls.Add(this.TablaDocente);
             this.panel_principal_medio.Controls.Add(this.panel9);
             this.panel_principal_medio.Controls.Add(this.panel5);
             this.panel_principal_medio.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -101,56 +103,6 @@ namespace CapaPresentacion
             this.panel8.Size = new System.Drawing.Size(5, 478);
             this.panel8.TabIndex = 29;
             // 
-            // TablaDocente
-            // 
-            this.TablaDocente.AllowUserToAddRows = false;
-            this.TablaDocente.AllowUserToOrderColumns = true;
-            this.TablaDocente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.TablaDocente.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.TablaDocente.BackgroundColor = System.Drawing.Color.White;
-            this.TablaDocente.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TablaDocente.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.TablaDocente.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            this.TablaDocente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaDocente.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.EDITAR,
-            this.ELIMINAR});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TablaDocente.DefaultCellStyle = dataGridViewCellStyle1;
-            this.TablaDocente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TablaDocente.Location = new System.Drawing.Point(0, 76);
-            this.TablaDocente.Name = "TablaDocente";
-            this.TablaDocente.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.TablaDocente.RowHeadersVisible = false;
-            this.TablaDocente.RowHeadersWidth = 51;
-            this.TablaDocente.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.TablaDocente.Size = new System.Drawing.Size(1002, 478);
-            this.TablaDocente.TabIndex = 28;
-            this.TablaDocente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaDocente_CellContentClick);
-            // 
-            // EDITAR
-            // 
-            this.EDITAR.HeaderText = "EDITAR";
-            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
-            this.EDITAR.MinimumWidth = 6;
-            this.EDITAR.Name = "EDITAR";
-            this.EDITAR.Width = 69;
-            // 
-            // ELIMINAR
-            // 
-            this.ELIMINAR.HeaderText = "ELIMINAR";
-            this.ELIMINAR.Image = ((System.Drawing.Image)(resources.GetObject("ELIMINAR.Image")));
-            this.ELIMINAR.MinimumWidth = 6;
-            this.ELIMINAR.Name = "ELIMINAR";
-            this.ELIMINAR.Width = 80;
-            // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
@@ -164,6 +116,8 @@ namespace CapaPresentacion
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.panel5.Controls.Add(this.panel11);
+            this.panel5.Controls.Add(this.panel10);
             this.panel5.Controls.Add(this.textBuscar);
             this.panel5.Controls.Add(this.pictureBox3);
             this.panel5.Controls.Add(this.btnDocentes);
@@ -173,11 +127,12 @@ namespace CapaPresentacion
             this.panel5.Size = new System.Drawing.Size(1002, 76);
             this.panel5.TabIndex = 24;
             this.panel5.Click += new System.EventHandler(this.panel9_Click);
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // textBuscar
             // 
             this.textBuscar.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBuscar.Location = new System.Drawing.Point(63, 23);
+            this.textBuscar.Location = new System.Drawing.Point(60, 30);
             this.textBuscar.Multiline = true;
             this.textBuscar.Name = "textBuscar";
             this.textBuscar.Size = new System.Drawing.Size(304, 30);
@@ -188,7 +143,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox3.Image = global::CapaPresentacion.Properties.Resources.luupaaaa;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 23);
+            this.pictureBox3.Location = new System.Drawing.Point(24, 30);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(30, 30);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -218,7 +173,7 @@ namespace CapaPresentacion
             this.btnDocentes.IconZoom = 40D;
             this.btnDocentes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnDocentes.IsTab = false;
-            this.btnDocentes.Location = new System.Drawing.Point(389, 23);
+            this.btnDocentes.Location = new System.Drawing.Point(371, 30);
             this.btnDocentes.Margin = new System.Windows.Forms.Padding(4);
             this.btnDocentes.Name = "btnDocentes";
             this.btnDocentes.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
@@ -279,6 +234,72 @@ namespace CapaPresentacion
             this.bunifuElipse2.ElipseRadius = 0;
             this.bunifuElipse2.TargetControl = this.panel_principal_medio;
             // 
+            // panel11
+            // 
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel11.Location = new System.Drawing.Point(0, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(21, 60);
+            this.panel11.TabIndex = 43;
+            // 
+            // panel10
+            // 
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel10.Location = new System.Drawing.Point(0, 60);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(1002, 16);
+            this.panel10.TabIndex = 42;
+            // 
+            // TablaDocente
+            // 
+            this.TablaDocente.AllowUserToAddRows = false;
+            this.TablaDocente.AllowUserToOrderColumns = true;
+            this.TablaDocente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.TablaDocente.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
+            this.TablaDocente.BackgroundColor = System.Drawing.Color.White;
+            this.TablaDocente.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TablaDocente.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.TablaDocente.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.TablaDocente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.TablaDocente.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.EDITAR,
+            this.ELIMINAR});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TablaDocente.DefaultCellStyle = dataGridViewCellStyle1;
+            this.TablaDocente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TablaDocente.Location = new System.Drawing.Point(5, 76);
+            this.TablaDocente.Name = "TablaDocente";
+            this.TablaDocente.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.TablaDocente.RowHeadersVisible = false;
+            this.TablaDocente.RowHeadersWidth = 51;
+            this.TablaDocente.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.TablaDocente.Size = new System.Drawing.Size(992, 478);
+            this.TablaDocente.TabIndex = 31;
+            this.TablaDocente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaDocente_CellContentClick);
+            // 
+            // EDITAR
+            // 
+            this.EDITAR.HeaderText = "EDITAR";
+            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
+            this.EDITAR.MinimumWidth = 6;
+            this.EDITAR.Name = "EDITAR";
+            this.EDITAR.Width = 69;
+            // 
+            // ELIMINAR
+            // 
+            this.ELIMINAR.HeaderText = "ELIMINAR";
+            this.ELIMINAR.Image = ((System.Drawing.Image)(resources.GetObject("ELIMINAR.Image")));
+            this.ELIMINAR.MinimumWidth = 6;
+            this.ELIMINAR.Name = "ELIMINAR";
+            this.ELIMINAR.Width = 80;
+            // 
             // FrmDocente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -290,10 +311,10 @@ namespace CapaPresentacion
             this.Text = "FrmDocente";
             this.panel_principal.ResumeLayout(false);
             this.panel_principal_medio.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.TablaDocente)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TablaDocente)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -309,14 +330,16 @@ namespace CapaPresentacion
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.DataGridView TablaDocente;
-        private System.Windows.Forms.DataGridViewImageColumn EDITAR;
-        private System.Windows.Forms.DataGridViewImageColumn ELIMINAR;
         private Bunifu.Framework.UI.BunifuFlatButton btnDocentes;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.TextBox textBuscar;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.DataGridView TablaDocente;
+        private System.Windows.Forms.DataGridViewImageColumn EDITAR;
+        private System.Windows.Forms.DataGridViewImageColumn ELIMINAR;
     }
 }
