@@ -41,7 +41,6 @@ namespace CapaPresentacion
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tablaBuscarTutoriaEstudiante)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -98,7 +97,7 @@ namespace CapaPresentacion
             this.txtBuscarTutoriaEstudiante.BackColor = System.Drawing.Color.Silver;
             this.txtBuscarTutoriaEstudiante.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtBuscarTutoriaEstudiante.BackgroundImage")));
             this.txtBuscarTutoriaEstudiante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.txtBuscarTutoriaEstudiante.ForeColor = System.Drawing.Color.SeaGreen;
+            this.txtBuscarTutoriaEstudiante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(44)))), ((int)(((byte)(66)))));
             this.txtBuscarTutoriaEstudiante.Icon = ((System.Drawing.Image)(resources.GetObject("txtBuscarTutoriaEstudiante.Icon")));
             this.txtBuscarTutoriaEstudiante.Location = new System.Drawing.Point(11, 15);
             this.txtBuscarTutoriaEstudiante.Name = "txtBuscarTutoriaEstudiante";
@@ -110,18 +109,18 @@ namespace CapaPresentacion
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(534, 344);
+            this.panel1.Size = new System.Drawing.Size(534, 364);
             this.panel1.TabIndex = 4;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.panel2.Controls.Add(this.btnSalir);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
@@ -130,23 +129,24 @@ namespace CapaPresentacion
             // 
             // btnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
             this.btnSalir.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.btnSalir.Image = global::CapaPresentacion.Properties.Resources.clos1;
-            this.btnSalir.Location = new System.Drawing.Point(503, 2);
+            this.btnSalir.ForeColor = System.Drawing.Color.White;
+            this.btnSalir.Location = new System.Drawing.Point(389, 315);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(29, 20);
+            this.btnSalir.Size = new System.Drawing.Size(134, 36);
             this.btnSalir.TabIndex = 5;
+            this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.TextChanged += new System.EventHandler(this.txtBuscarTutoriaEstudiante_OnTextChange);
             // 
             // FrmBuscarEstudianteTutoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 344);
+            this.ClientSize = new System.Drawing.Size(534, 364);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -157,7 +157,6 @@ namespace CapaPresentacion
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tablaBuscarTutoriaEstudiante)).EndInit();
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

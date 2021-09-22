@@ -142,12 +142,12 @@ C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaDatos\obj\Debug\
 C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\TOSHIBA\Desktop\GITHUB FINAL\jorgecrash\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.pdb
-C:\Users\OEM\Documents\TutoriaFinal(OJO)\Tutoria3.0\CapaDatos\bin\Debug\CapaDatos.dll
-C:\Users\OEM\Documents\TutoriaFinal(OJO)\Tutoria3.0\CapaDatos\bin\Debug\CapaDatos.pdb
-C:\Users\OEM\Documents\TutoriaFinal(OJO)\Tutoria3.0\CapaDatos\bin\Debug\CapaEntidades.dll
-C:\Users\OEM\Documents\TutoriaFinal(OJO)\Tutoria3.0\CapaDatos\bin\Debug\CapaEntidades.pdb
-C:\Users\OEM\Documents\TutoriaFinal(OJO)\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
-C:\Users\OEM\Documents\TutoriaFinal(OJO)\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
-C:\Users\OEM\Documents\TutoriaFinal(OJO)\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
-C:\Users\OEM\Documents\TutoriaFinal(OJO)\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.dll
-C:\Users\OEM\Documents\TutoriaFinal(OJO)\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\angel\Source\Repos\jorgecrash\Tutoria3.0\CapaDatos\obj\Debug\CapaDatos.pdb
