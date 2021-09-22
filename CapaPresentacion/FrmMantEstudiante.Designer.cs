@@ -36,49 +36,49 @@ namespace CapaPresentacion
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.ofdInsertar = new System.Windows.Forms.OpenFileDialog();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Ingreso = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.textApellidos = new System.Windows.Forms.TextBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.lblUbicacionCSV = new System.Windows.Forms.Label();
+            this.dgvDatosCSV = new System.Windows.Forms.DataGridView();
+            this.btnGuardarDatosCSV = new System.Windows.Forms.Button();
+            this.btnExportarCSV = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.txtIngreso = new System.Windows.Forms.TextBox();
+            this.txtIdEP = new System.Windows.Forms.TextBox();
+            this.Id = new System.Windows.Forms.Label();
             this.btnGuardar = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.textEscuela = new System.Windows.Forms.TextBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.Id = new System.Windows.Forms.Label();
-            this.txtIdEP = new System.Windows.Forms.TextBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textApellidos = new System.Windows.Forms.TextBox();
-            this.textEscuela = new System.Windows.Forms.TextBox();
-            this.textNombres = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.txtIngreso = new System.Windows.Forms.TextBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.Ingreso = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.btnExportarCSV = new System.Windows.Forms.Button();
-            this.btnGuardarDatosCSV = new System.Windows.Forms.Button();
-            this.dgvDatosCSV = new System.Windows.Forms.DataGridView();
-            this.lblUbicacionCSV = new System.Windows.Forms.Label();
-            this.ofdInsertar = new System.Windows.Forms.OpenFileDialog();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textCodigo = new System.Windows.Forms.TextBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.textNombres = new System.Windows.Forms.TextBox();
+            this.textCodigo = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.txtSemestreActivo = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.topFormulario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosCSV)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // MoverFormulario
@@ -96,7 +96,7 @@ namespace CapaPresentacion
             this.topFormulario.Dock = System.Windows.Forms.DockStyle.Top;
             this.topFormulario.Location = new System.Drawing.Point(0, 0);
             this.topFormulario.Name = "topFormulario";
-            this.topFormulario.Size = new System.Drawing.Size(569, 36);
+            this.topFormulario.Size = new System.Drawing.Size(573, 36);
             this.topFormulario.TabIndex = 0;
             this.topFormulario.Paint += new System.Windows.Forms.PaintEventHandler(this.topFormulario_Paint);
             // 
@@ -116,7 +116,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.cerrar;
-            this.pictureBox1.Location = new System.Drawing.Point(593, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(552, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(18, 23);
             this.pictureBox1.TabIndex = 0;
@@ -127,307 +127,9 @@ namespace CapaPresentacion
             // 
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             // 
-            // btnGuardar
-            // 
-            this.btnGuardar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnGuardar.BorderRadius = 0;
-            this.btnGuardar.ButtonText = "               GUARDAR";
-            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGuardar.DisabledColor = System.Drawing.Color.Gray;
-            this.btnGuardar.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnGuardar.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Iconimage")));
-            this.btnGuardar.Iconimage_right = null;
-            this.btnGuardar.Iconimage_right_Selected = null;
-            this.btnGuardar.Iconimage_Selected = null;
-            this.btnGuardar.IconMarginLeft = 0;
-            this.btnGuardar.IconMarginRight = 0;
-            this.btnGuardar.IconRightVisible = true;
-            this.btnGuardar.IconRightZoom = 0D;
-            this.btnGuardar.IconVisible = true;
-            this.btnGuardar.IconZoom = 90D;
-            this.btnGuardar.IsTab = false;
-            this.btnGuardar.Location = new System.Drawing.Point(161, 292);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnGuardar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.btnGuardar.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnGuardar.selected = false;
-            this.btnGuardar.Size = new System.Drawing.Size(219, 51);
-            this.btnGuardar.TabIndex = 10;
-            this.btnGuardar.Text = "               GUARDAR";
-            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Textcolor = System.Drawing.Color.White;
-            this.btnGuardar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(20, 123);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(230, 32);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 38;
-            this.pictureBox8.TabStop = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(23, 101);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(135, 16);
-            this.label7.TabIndex = 37;
-            this.label7.Text = "SEMESTRE ACTIVO";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // Id
-            // 
-            this.Id.AutoSize = true;
-            this.Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Id.ForeColor = System.Drawing.Color.White;
-            this.Id.Location = new System.Drawing.Point(279, 169);
-            this.Id.Name = "Id";
-            this.Id.Size = new System.Drawing.Size(81, 16);
-            this.Id.TabIndex = 33;
-            this.Id.Text = "CODIGO EP";
-            this.Id.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Id.Click += new System.EventHandler(this.Id_Click);
-            // 
-            // txtIdEP
-            // 
-            this.txtIdEP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtIdEP.Location = new System.Drawing.Point(291, 198);
-            this.txtIdEP.Name = "txtIdEP";
-            this.txtIdEP.Size = new System.Drawing.Size(210, 22);
-            this.txtIdEP.TabIndex = 32;
-            this.txtIdEP.TextChanged += new System.EventHandler(this.txtIdEP_TextChanged);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(282, 188);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(230, 32);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 34;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(23, 230);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(167, 16);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "ESCUELA PROFESIONAL";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(279, 24);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 16);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "APELLIDOS";
-            // 
-            // textApellidos
-            // 
-            this.textApellidos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textApellidos.Location = new System.Drawing.Point(297, 60);
-            this.textApellidos.Name = "textApellidos";
-            this.textApellidos.Size = new System.Drawing.Size(204, 22);
-            this.textApellidos.TabIndex = 25;
-            // 
-            // textEscuela
-            // 
-            this.textEscuela.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textEscuela.Location = new System.Drawing.Point(37, 259);
-            this.textEscuela.Name = "textEscuela";
-            this.textEscuela.Size = new System.Drawing.Size(465, 22);
-            this.textEscuela.TabIndex = 23;
-            // 
-            // textNombres
-            // 
-            this.textNombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textNombres.Location = new System.Drawing.Point(26, 60);
-            this.textNombres.Name = "textNombres";
-            this.textNombres.Size = new System.Drawing.Size(204, 22);
-            this.textNombres.TabIndex = 21;
-            this.textNombres.TextChanged += new System.EventHandler(this.textNombres_TextChanged);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(20, 51);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(230, 32);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 27;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(282, 51);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(230, 32);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 28;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(21, 249);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(491, 32);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 29;
-            this.pictureBox4.TabStop = false;
-            // 
-            // txtIngreso
-            // 
-            this.txtIngreso.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtIngreso.Location = new System.Drawing.Point(292, 130);
-            this.txtIngreso.Name = "txtIngreso";
-            this.txtIngreso.Size = new System.Drawing.Size(209, 22);
-            this.txtIngreso.TabIndex = 43;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(283, 122);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(229, 32);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 42;
-            this.pictureBox7.TabStop = false;
-            // 
-            // Ingreso
-            // 
-            this.Ingreso.AutoSize = true;
-            this.Ingreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ingreso.ForeColor = System.Drawing.Color.White;
-            this.Ingreso.Location = new System.Drawing.Point(279, 101);
-            this.Ingreso.Name = "Ingreso";
-            this.Ingreso.Size = new System.Drawing.Size(101, 16);
-            this.Ingreso.TabIndex = 41;
-            this.Ingreso.Text = "AÑO INGRESO";
-            this.Ingreso.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(23, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 16);
-            this.label2.TabIndex = 44;
-            this.label2.Text = "NOMBRES";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(9, 28);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(412, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 45;
-            this.pictureBox5.TabStop = false;
-            // 
-            // btnExportarCSV
-            // 
-            this.btnExportarCSV.Location = new System.Drawing.Point(412, 183);
-            this.btnExportarCSV.Margin = new System.Windows.Forms.Padding(2);
-            this.btnExportarCSV.Name = "btnExportarCSV";
-            this.btnExportarCSV.Size = new System.Drawing.Size(128, 30);
-            this.btnExportarCSV.TabIndex = 46;
-            this.btnExportarCSV.Text = "Exportar CSV";
-            this.btnExportarCSV.UseVisualStyleBackColor = true;
-            this.btnExportarCSV.Click += new System.EventHandler(this.btnExportarCSV_Click);
-            // 
-            // btnGuardarDatosCSV
-            // 
-            this.btnGuardarDatosCSV.Location = new System.Drawing.Point(426, 24);
-            this.btnGuardarDatosCSV.Margin = new System.Windows.Forms.Padding(2);
-            this.btnGuardarDatosCSV.Name = "btnGuardarDatosCSV";
-            this.btnGuardarDatosCSV.Size = new System.Drawing.Size(114, 37);
-            this.btnGuardarDatosCSV.TabIndex = 47;
-            this.btnGuardarDatosCSV.Text = "Gardar Datos";
-            this.btnGuardarDatosCSV.UseVisualStyleBackColor = true;
-            this.btnGuardarDatosCSV.Click += new System.EventHandler(this.btnGuardarDatosCSV_Click);
-            // 
-            // dgvDatosCSV
-            // 
-            this.dgvDatosCSV.AllowUserToAddRows = false;
-            this.dgvDatosCSV.AllowUserToDeleteRows = false;
-            this.dgvDatosCSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDatosCSV.Location = new System.Drawing.Point(12, 65);
-            this.dgvDatosCSV.Margin = new System.Windows.Forms.Padding(2);
-            this.dgvDatosCSV.Name = "dgvDatosCSV";
-            this.dgvDatosCSV.ReadOnly = true;
-            this.dgvDatosCSV.RowHeadersVisible = false;
-            this.dgvDatosCSV.RowHeadersWidth = 102;
-            this.dgvDatosCSV.RowTemplate.Height = 40;
-            this.dgvDatosCSV.Size = new System.Drawing.Size(528, 161);
-            this.dgvDatosCSV.TabIndex = 48;
-            // 
-            // lblUbicacionCSV
-            // 
-            this.lblUbicacionCSV.AutoSize = true;
-            this.lblUbicacionCSV.BackColor = System.Drawing.Color.White;
-            this.lblUbicacionCSV.Location = new System.Drawing.Point(16, 36);
-            this.lblUbicacionCSV.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblUbicacionCSV.Name = "lblUbicacionCSV";
-            this.lblUbicacionCSV.Size = new System.Drawing.Size(113, 13);
-            this.lblUbicacionCSV.TabIndex = 49;
-            this.lblUbicacionCSV.Text = "Ubicacion archivo csv";
-            this.lblUbicacionCSV.Visible = false;
-            // 
             // ofdInsertar
             // 
             this.ofdInsertar.FileName = "ofdInsertar";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Centaur", 10.2F);
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(22, 169);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 17);
-            this.label5.TabIndex = 52;
-            this.label5.Text = "CODIGO";
-            // 
-            // textCodigo
-            // 
-            this.textCodigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textCodigo.Location = new System.Drawing.Point(36, 198);
-            this.textCodigo.Name = "textCodigo";
-            this.textCodigo.Size = new System.Drawing.Size(205, 22);
-            this.textCodigo.TabIndex = 50;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(20, 188);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(232, 32);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 51;
-            this.pictureBox9.TabStop = false;
             // 
             // groupBox1
             // 
@@ -463,19 +165,99 @@ namespace CapaPresentacion
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Alumno";
             // 
-            // txtSemestreActivo
+            // Ingreso
             // 
-            this.txtSemestreActivo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSemestreActivo.Location = new System.Drawing.Point(25, 134);
-            this.txtSemestreActivo.Name = "txtSemestreActivo";
-            this.txtSemestreActivo.Size = new System.Drawing.Size(215, 22);
-            this.txtSemestreActivo.TabIndex = 45;
+            this.Ingreso.AutoSize = true;
+            this.Ingreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ingreso.ForeColor = System.Drawing.Color.White;
+            this.Ingreso.Location = new System.Drawing.Point(279, 101);
+            this.Ingreso.Name = "Ingreso";
+            this.Ingreso.Size = new System.Drawing.Size(101, 16);
+            this.Ingreso.TabIndex = 41;
+            this.Ingreso.Text = "AÑO INGRESO";
+            this.Ingreso.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(283, 122);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(229, 32);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 42;
+            this.pictureBox7.TabStop = false;
+            // 
+            // textApellidos
+            // 
+            this.textApellidos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textApellidos.Location = new System.Drawing.Point(297, 60);
+            this.textApellidos.Name = "textApellidos";
+            this.textApellidos.Size = new System.Drawing.Size(204, 22);
+            this.textApellidos.TabIndex = 25;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(9, 28);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(412, 30);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 45;
+            this.pictureBox5.TabStop = false;
+            // 
+            // lblUbicacionCSV
+            // 
+            this.lblUbicacionCSV.AutoSize = true;
+            this.lblUbicacionCSV.BackColor = System.Drawing.Color.White;
+            this.lblUbicacionCSV.Location = new System.Drawing.Point(16, 36);
+            this.lblUbicacionCSV.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUbicacionCSV.Name = "lblUbicacionCSV";
+            this.lblUbicacionCSV.Size = new System.Drawing.Size(113, 13);
+            this.lblUbicacionCSV.TabIndex = 49;
+            this.lblUbicacionCSV.Text = "Ubicacion archivo csv";
+            this.lblUbicacionCSV.Visible = false;
+            // 
+            // dgvDatosCSV
+            // 
+            this.dgvDatosCSV.AllowUserToAddRows = false;
+            this.dgvDatosCSV.AllowUserToDeleteRows = false;
+            this.dgvDatosCSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDatosCSV.Location = new System.Drawing.Point(6, 65);
+            this.dgvDatosCSV.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvDatosCSV.Name = "dgvDatosCSV";
+            this.dgvDatosCSV.ReadOnly = true;
+            this.dgvDatosCSV.RowHeadersVisible = false;
+            this.dgvDatosCSV.RowHeadersWidth = 102;
+            this.dgvDatosCSV.RowTemplate.Height = 40;
+            this.dgvDatosCSV.Size = new System.Drawing.Size(534, 161);
+            this.dgvDatosCSV.TabIndex = 48;
+            // 
+            // btnGuardarDatosCSV
+            // 
+            this.btnGuardarDatosCSV.Location = new System.Drawing.Point(219, 230);
+            this.btnGuardarDatosCSV.Margin = new System.Windows.Forms.Padding(2);
+            this.btnGuardarDatosCSV.Name = "btnGuardarDatosCSV";
+            this.btnGuardarDatosCSV.Size = new System.Drawing.Size(114, 37);
+            this.btnGuardarDatosCSV.TabIndex = 47;
+            this.btnGuardarDatosCSV.Text = "Gardar Datos";
+            this.btnGuardarDatosCSV.UseVisualStyleBackColor = true;
+            this.btnGuardarDatosCSV.Click += new System.EventHandler(this.btnGuardarDatosCSV_Click);
+            // 
+            // btnExportarCSV
+            // 
+            this.btnExportarCSV.Location = new System.Drawing.Point(426, 31);
+            this.btnExportarCSV.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExportarCSV.Name = "btnExportarCSV";
+            this.btnExportarCSV.Size = new System.Drawing.Size(119, 30);
+            this.btnExportarCSV.TabIndex = 50;
+            this.btnExportarCSV.Text = "Exportar CSV";
+            this.btnExportarCSV.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnExportarCSV);
             this.groupBox2.Controls.Add(this.btnGuardarDatosCSV);
             this.groupBox2.Controls.Add(this.dgvDatosCSV);
-            this.groupBox2.Controls.Add(this.btnExportarCSV);
             this.groupBox2.Controls.Add(this.lblUbicacionCSV);
             this.groupBox2.Controls.Add(this.pictureBox5);
             this.groupBox2.Location = new System.Drawing.Point(12, 418);
@@ -485,13 +267,230 @@ namespace CapaPresentacion
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(279, 24);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 16);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "APELLIDOS";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(282, 51);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(230, 32);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 28;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(282, 188);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(230, 32);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 34;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // txtIngreso
+            // 
+            this.txtIngreso.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtIngreso.Location = new System.Drawing.Point(292, 130);
+            this.txtIngreso.Name = "txtIngreso";
+            this.txtIngreso.Size = new System.Drawing.Size(209, 22);
+            this.txtIngreso.TabIndex = 43;
+            // 
+            // txtIdEP
+            // 
+            this.txtIdEP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtIdEP.Location = new System.Drawing.Point(291, 198);
+            this.txtIdEP.Name = "txtIdEP";
+            this.txtIdEP.Size = new System.Drawing.Size(210, 22);
+            this.txtIdEP.TabIndex = 32;
+            this.txtIdEP.TextChanged += new System.EventHandler(this.txtIdEP_TextChanged);
+            // 
+            // Id
+            // 
+            this.Id.AutoSize = true;
+            this.Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Id.ForeColor = System.Drawing.Color.White;
+            this.Id.Location = new System.Drawing.Point(279, 169);
+            this.Id.Name = "Id";
+            this.Id.Size = new System.Drawing.Size(81, 16);
+            this.Id.TabIndex = 33;
+            this.Id.Text = "CODIGO EP";
+            this.Id.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Id.Click += new System.EventHandler(this.Id_Click);
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Activecolor = System.Drawing.Color.Silver;
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnGuardar.BorderRadius = 0;
+            this.btnGuardar.ButtonText = "               GUARDAR";
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuardar.DisabledColor = System.Drawing.Color.Gray;
+            this.btnGuardar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnGuardar.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Iconimage")));
+            this.btnGuardar.Iconimage_right = null;
+            this.btnGuardar.Iconimage_right_Selected = null;
+            this.btnGuardar.Iconimage_Selected = null;
+            this.btnGuardar.IconMarginLeft = 0;
+            this.btnGuardar.IconMarginRight = 0;
+            this.btnGuardar.IconRightVisible = true;
+            this.btnGuardar.IconRightZoom = 0D;
+            this.btnGuardar.IconVisible = true;
+            this.btnGuardar.IconZoom = 90D;
+            this.btnGuardar.IsTab = false;
+            this.btnGuardar.Location = new System.Drawing.Point(143, 307);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnGuardar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.btnGuardar.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnGuardar.selected = false;
+            this.btnGuardar.Size = new System.Drawing.Size(272, 33);
+            this.btnGuardar.TabIndex = 10;
+            this.btnGuardar.Text = "               GUARDAR";
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuardar.Textcolor = System.Drawing.Color.White;
+            this.btnGuardar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(23, 230);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(167, 16);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "ESCUELA PROFESIONAL";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(21, 249);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(491, 32);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 29;
+            this.pictureBox4.TabStop = false;
+            // 
+            // textEscuela
+            // 
+            this.textEscuela.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textEscuela.Location = new System.Drawing.Point(37, 259);
+            this.textEscuela.Name = "textEscuela";
+            this.textEscuela.Size = new System.Drawing.Size(465, 22);
+            this.textEscuela.TabIndex = 23;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(20, 123);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(230, 32);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 38;
+            this.pictureBox8.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(23, 101);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(135, 16);
+            this.label7.TabIndex = 37;
+            this.label7.Text = "SEMESTRE ACTIVO";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(20, 188);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(232, 32);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 51;
+            this.pictureBox9.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(23, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 16);
+            this.label2.TabIndex = 44;
+            this.label2.Text = "NOMBRES";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(20, 51);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(230, 32);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 27;
+            this.pictureBox2.TabStop = false;
+            // 
+            // textNombres
+            // 
+            this.textNombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textNombres.Location = new System.Drawing.Point(26, 60);
+            this.textNombres.Name = "textNombres";
+            this.textNombres.Size = new System.Drawing.Size(204, 22);
+            this.textNombres.TabIndex = 21;
+            this.textNombres.TextChanged += new System.EventHandler(this.textNombres_TextChanged);
+            // 
+            // textCodigo
+            // 
+            this.textCodigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textCodigo.Location = new System.Drawing.Point(36, 198);
+            this.textCodigo.Name = "textCodigo";
+            this.textCodigo.Size = new System.Drawing.Size(205, 22);
+            this.textCodigo.TabIndex = 50;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Centaur", 10.2F);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(22, 169);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 17);
+            this.label5.TabIndex = 52;
+            this.label5.Text = "CODIGO";
+            // 
+            // txtSemestreActivo
+            // 
+            this.txtSemestreActivo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSemestreActivo.Location = new System.Drawing.Point(25, 134);
+            this.txtSemestreActivo.Name = "txtSemestreActivo";
+            this.txtSemestreActivo.Size = new System.Drawing.Size(215, 22);
+            this.txtSemestreActivo.TabIndex = 45;
+            // 
             // FrmMantEstudiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.SeaShell;
-            this.ClientSize = new System.Drawing.Size(569, 690);
+            this.ClientSize = new System.Drawing.Size(573, 690);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.topFormulario);
@@ -503,19 +502,19 @@ namespace CapaPresentacion
             this.topFormulario.ResumeLayout(false);
             this.topFormulario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosCSV)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -526,35 +525,35 @@ namespace CapaPresentacion
         private System.Windows.Forms.Panel topFormulario;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Bunifu.Framework.UI.BunifuFlatButton btnGuardar;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label Id;
-        public System.Windows.Forms.TextBox txtIdEP;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        public System.Windows.Forms.TextBox textApellidos;
-        public System.Windows.Forms.TextBox textEscuela;
-        public System.Windows.Forms.TextBox textNombres;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        public System.Windows.Forms.TextBox txtIngreso;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label Ingreso;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button btnExportarCSV;
-        private System.Windows.Forms.Button btnGuardarDatosCSV;
-        private System.Windows.Forms.DataGridView dgvDatosCSV;
-        private System.Windows.Forms.Label lblUbicacionCSV;
         private System.Windows.Forms.OpenFileDialog ofdInsertar;
-        private System.Windows.Forms.Label label5;
-        public System.Windows.Forms.TextBox textCodigo;
-        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.GroupBox groupBox1;
         public System.Windows.Forms.TextBox txtSemestreActivo;
+        private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.TextBox textCodigo;
+        public System.Windows.Forms.TextBox textNombres;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        public System.Windows.Forms.TextBox textEscuela;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label3;
+        private Bunifu.Framework.UI.BunifuFlatButton btnGuardar;
+        private System.Windows.Forms.Label Id;
+        public System.Windows.Forms.TextBox txtIdEP;
+        public System.Windows.Forms.TextBox txtIngreso;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        public System.Windows.Forms.TextBox textApellidos;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label Ingreso;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label lblUbicacionCSV;
+        private System.Windows.Forms.DataGridView dgvDatosCSV;
+        private System.Windows.Forms.Button btnGuardarDatosCSV;
+        private System.Windows.Forms.Button btnExportarCSV;
         private System.Windows.Forms.GroupBox groupBox2;
     }
 }
