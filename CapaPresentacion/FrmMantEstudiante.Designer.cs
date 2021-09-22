@@ -65,6 +65,7 @@ namespace CapaPresentacion
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtSemestreActivo = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.topFormulario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -77,6 +78,7 @@ namespace CapaPresentacion
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosCSV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // MoverFormulario
@@ -94,7 +96,7 @@ namespace CapaPresentacion
             this.topFormulario.Dock = System.Windows.Forms.DockStyle.Top;
             this.topFormulario.Location = new System.Drawing.Point(0, 0);
             this.topFormulario.Name = "topFormulario";
-            this.topFormulario.Size = new System.Drawing.Size(614, 36);
+            this.topFormulario.Size = new System.Drawing.Size(569, 36);
             this.topFormulario.TabIndex = 0;
             this.topFormulario.Paint += new System.Windows.Forms.PaintEventHandler(this.topFormulario_Paint);
             // 
@@ -153,7 +155,7 @@ namespace CapaPresentacion
             this.btnGuardar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.btnGuardar.OnHoverTextColor = System.Drawing.Color.White;
             this.btnGuardar.selected = false;
-            this.btnGuardar.Size = new System.Drawing.Size(219, 45);
+            this.btnGuardar.Size = new System.Drawing.Size(219, 51);
             this.btnGuardar.TabIndex = 10;
             this.btnGuardar.Text = "               GUARDAR";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -175,7 +177,7 @@ namespace CapaPresentacion
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(23, 101);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(135, 16);
@@ -187,8 +189,8 @@ namespace CapaPresentacion
             // 
             this.Id.AutoSize = true;
             this.Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Id.ForeColor = System.Drawing.Color.Black;
-            this.Id.Location = new System.Drawing.Point(280, 170);
+            this.Id.ForeColor = System.Drawing.Color.White;
+            this.Id.Location = new System.Drawing.Point(279, 169);
             this.Id.Name = "Id";
             this.Id.Size = new System.Drawing.Size(81, 16);
             this.Id.TabIndex = 33;
@@ -199,16 +201,16 @@ namespace CapaPresentacion
             // txtIdEP
             // 
             this.txtIdEP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtIdEP.Location = new System.Drawing.Point(292, 207);
+            this.txtIdEP.Location = new System.Drawing.Point(291, 198);
             this.txtIdEP.Name = "txtIdEP";
-            this.txtIdEP.Size = new System.Drawing.Size(210, 13);
+            this.txtIdEP.Size = new System.Drawing.Size(210, 22);
             this.txtIdEP.TabIndex = 32;
             this.txtIdEP.TextChanged += new System.EventHandler(this.txtIdEP_TextChanged);
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(282, 197);
+            this.pictureBox6.Location = new System.Drawing.Point(282, 188);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(230, 32);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -220,7 +222,7 @@ namespace CapaPresentacion
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(23, 230);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(167, 16);
@@ -231,7 +233,7 @@ namespace CapaPresentacion
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(279, 24);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 16);
@@ -243,7 +245,7 @@ namespace CapaPresentacion
             this.textApellidos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textApellidos.Location = new System.Drawing.Point(297, 60);
             this.textApellidos.Name = "textApellidos";
-            this.textApellidos.Size = new System.Drawing.Size(204, 13);
+            this.textApellidos.Size = new System.Drawing.Size(204, 22);
             this.textApellidos.TabIndex = 25;
             // 
             // textEscuela
@@ -251,15 +253,15 @@ namespace CapaPresentacion
             this.textEscuela.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textEscuela.Location = new System.Drawing.Point(37, 259);
             this.textEscuela.Name = "textEscuela";
-            this.textEscuela.Size = new System.Drawing.Size(465, 13);
+            this.textEscuela.Size = new System.Drawing.Size(465, 22);
             this.textEscuela.TabIndex = 23;
             // 
             // textNombres
             // 
             this.textNombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textNombres.Location = new System.Drawing.Point(36, 60);
+            this.textNombres.Location = new System.Drawing.Point(26, 60);
             this.textNombres.Name = "textNombres";
-            this.textNombres.Size = new System.Drawing.Size(204, 13);
+            this.textNombres.Size = new System.Drawing.Size(204, 22);
             this.textNombres.TabIndex = 21;
             this.textNombres.TextChanged += new System.EventHandler(this.textNombres_TextChanged);
             // 
@@ -298,7 +300,7 @@ namespace CapaPresentacion
             this.txtIngreso.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIngreso.Location = new System.Drawing.Point(292, 130);
             this.txtIngreso.Name = "txtIngreso";
-            this.txtIngreso.Size = new System.Drawing.Size(202, 13);
+            this.txtIngreso.Size = new System.Drawing.Size(209, 22);
             this.txtIngreso.TabIndex = 43;
             // 
             // pictureBox7
@@ -306,7 +308,7 @@ namespace CapaPresentacion
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(283, 122);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(231, 32);
+            this.pictureBox7.Size = new System.Drawing.Size(229, 32);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 42;
             this.pictureBox7.TabStop = false;
@@ -315,7 +317,7 @@ namespace CapaPresentacion
             // 
             this.Ingreso.AutoSize = true;
             this.Ingreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ingreso.ForeColor = System.Drawing.Color.Black;
+            this.Ingreso.ForeColor = System.Drawing.Color.White;
             this.Ingreso.Location = new System.Drawing.Point(279, 101);
             this.Ingreso.Name = "Ingreso";
             this.Ingreso.Size = new System.Drawing.Size(101, 16);
@@ -327,7 +329,7 @@ namespace CapaPresentacion
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(23, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 16);
@@ -338,19 +340,19 @@ namespace CapaPresentacion
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(12, 405);
+            this.pictureBox5.Location = new System.Drawing.Point(9, 28);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(434, 30);
+            this.pictureBox5.Size = new System.Drawing.Size(412, 30);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 45;
             this.pictureBox5.TabStop = false;
             // 
             // btnExportarCSV
             // 
-            this.btnExportarCSV.Location = new System.Drawing.Point(465, 405);
+            this.btnExportarCSV.Location = new System.Drawing.Point(412, 183);
             this.btnExportarCSV.Margin = new System.Windows.Forms.Padding(2);
             this.btnExportarCSV.Name = "btnExportarCSV";
-            this.btnExportarCSV.Size = new System.Drawing.Size(129, 30);
+            this.btnExportarCSV.Size = new System.Drawing.Size(128, 30);
             this.btnExportarCSV.TabIndex = 46;
             this.btnExportarCSV.Text = "Exportar CSV";
             this.btnExportarCSV.UseVisualStyleBackColor = true;
@@ -358,10 +360,10 @@ namespace CapaPresentacion
             // 
             // btnGuardarDatosCSV
             // 
-            this.btnGuardarDatosCSV.Location = new System.Drawing.Point(223, 628);
+            this.btnGuardarDatosCSV.Location = new System.Drawing.Point(426, 24);
             this.btnGuardarDatosCSV.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardarDatosCSV.Name = "btnGuardarDatosCSV";
-            this.btnGuardarDatosCSV.Size = new System.Drawing.Size(124, 43);
+            this.btnGuardarDatosCSV.Size = new System.Drawing.Size(114, 37);
             this.btnGuardarDatosCSV.TabIndex = 47;
             this.btnGuardarDatosCSV.Text = "Gardar Datos";
             this.btnGuardarDatosCSV.UseVisualStyleBackColor = true;
@@ -372,21 +374,21 @@ namespace CapaPresentacion
             this.dgvDatosCSV.AllowUserToAddRows = false;
             this.dgvDatosCSV.AllowUserToDeleteRows = false;
             this.dgvDatosCSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDatosCSV.Location = new System.Drawing.Point(12, 453);
+            this.dgvDatosCSV.Location = new System.Drawing.Point(12, 65);
             this.dgvDatosCSV.Margin = new System.Windows.Forms.Padding(2);
             this.dgvDatosCSV.Name = "dgvDatosCSV";
             this.dgvDatosCSV.ReadOnly = true;
             this.dgvDatosCSV.RowHeadersVisible = false;
             this.dgvDatosCSV.RowHeadersWidth = 102;
             this.dgvDatosCSV.RowTemplate.Height = 40;
-            this.dgvDatosCSV.Size = new System.Drawing.Size(582, 161);
+            this.dgvDatosCSV.Size = new System.Drawing.Size(528, 161);
             this.dgvDatosCSV.TabIndex = 48;
             // 
             // lblUbicacionCSV
             // 
             this.lblUbicacionCSV.AutoSize = true;
             this.lblUbicacionCSV.BackColor = System.Drawing.Color.White;
-            this.lblUbicacionCSV.Location = new System.Drawing.Point(19, 413);
+            this.lblUbicacionCSV.Location = new System.Drawing.Point(16, 36);
             this.lblUbicacionCSV.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUbicacionCSV.Name = "lblUbicacionCSV";
             this.lblUbicacionCSV.Size = new System.Drawing.Size(113, 13);
@@ -402,7 +404,7 @@ namespace CapaPresentacion
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Centaur", 10.2F);
-            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(22, 169);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 17);
@@ -414,7 +416,7 @@ namespace CapaPresentacion
             this.textCodigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textCodigo.Location = new System.Drawing.Point(36, 198);
             this.textCodigo.Name = "textCodigo";
-            this.textCodigo.Size = new System.Drawing.Size(205, 13);
+            this.textCodigo.Size = new System.Drawing.Size(205, 22);
             this.textCodigo.TabIndex = 50;
             // 
             // pictureBox9
@@ -429,6 +431,7 @@ namespace CapaPresentacion
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
             this.groupBox1.Controls.Add(this.txtSemestreActivo);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.textCodigo);
@@ -451,33 +454,46 @@ namespace CapaPresentacion
             this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Controls.Add(this.Ingreso);
             this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(18, 50);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(582, 350);
+            this.groupBox1.Size = new System.Drawing.Size(539, 362);
             this.groupBox1.TabIndex = 53;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Datos Alumno";
             // 
             // txtSemestreActivo
             // 
             this.txtSemestreActivo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSemestreActivo.Location = new System.Drawing.Point(25, 134);
             this.txtSemestreActivo.Name = "txtSemestreActivo";
-            this.txtSemestreActivo.Size = new System.Drawing.Size(215, 13);
+            this.txtSemestreActivo.Size = new System.Drawing.Size(215, 22);
             this.txtSemestreActivo.TabIndex = 45;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnGuardarDatosCSV);
+            this.groupBox2.Controls.Add(this.dgvDatosCSV);
+            this.groupBox2.Controls.Add(this.btnExportarCSV);
+            this.groupBox2.Controls.Add(this.lblUbicacionCSV);
+            this.groupBox2.Controls.Add(this.pictureBox5);
+            this.groupBox2.Location = new System.Drawing.Point(12, 418);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(545, 268);
+            this.groupBox2.TabIndex = 54;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
             // 
             // FrmMantEstudiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(614, 690);
+            this.BackColor = System.Drawing.Color.SeaShell;
+            this.ClientSize = new System.Drawing.Size(569, 690);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.lblUbicacionCSV);
-            this.Controls.Add(this.dgvDatosCSV);
-            this.Controls.Add(this.btnGuardarDatosCSV);
-            this.Controls.Add(this.btnExportarCSV);
-            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.topFormulario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMantEstudiante";
@@ -498,8 +514,9 @@ namespace CapaPresentacion
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -538,5 +555,6 @@ namespace CapaPresentacion
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.GroupBox groupBox1;
         public System.Windows.Forms.TextBox txtSemestreActivo;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
