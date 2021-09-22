@@ -77,8 +77,7 @@ namespace CapaPresentacion
             {
                 FrmMantTutoria frm = new FrmMantTutoria();
                 frm.Update = true;
-                frm.IdTutoria = TablaTutoria.Rows[e.RowIndex].Cells["IdTutoria"].Value.ToString();
-                //frm.textId.Text = TablaTutoria.Rows[e.RowIndex].Cells["IdTutoria"].Value.ToString();
+                frm.textId.Text = TablaTutoria.Rows[e.RowIndex].Cells["IdTutoria"].Value.ToString();
                 frm.textIdDocente.Text = TablaTutoria.Rows[e.RowIndex].Cells["IdDocente"].Value.ToString();
                 //frm.textHorario.Text = TablaTutoria.Rows[e.RowIndex].Cells["Horario"].Value.ToString();
                 

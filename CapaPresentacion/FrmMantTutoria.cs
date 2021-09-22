@@ -15,7 +15,6 @@ namespace CapaPresentacion
     public partial class FrmMantTutoria : Form
     {
         public bool Update = false;
-        public string IdTutoria = "";
         E_Tutoria entities = new E_Tutoria();
         N_Tutoria business = new N_Tutoria();
         public FrmMantTutoria()
@@ -34,6 +33,7 @@ namespace CapaPresentacion
                 {
                     try
                     {
+                        entities.IdTutoria = textId.Text;
                         entities.IdDocente = textIdDocente.Text;
                         entities.Horario = dtpFecha.Value.Date.ToString("dd/MM/yyyy") + "  " + dtpHora.Value.TimeOfDay.ToString();
                         business.CreatingTutoria(entities);
@@ -49,7 +49,7 @@ namespace CapaPresentacion
                 {
                     try
                     {
-                        entities.IdTutoria = IdTutoria;
+                        entities.IdTutoria = textId.Text;
                         entities.IdDocente = textIdDocente.Text; ;
                         entities.Horario = dtpFecha.Value.Date.ToString("dd/MM/yyyy") + "  " + dtpHora.Value.TimeOfDay.ToString();
 
@@ -140,6 +140,12 @@ namespace CapaPresentacion
         private void dtpFecha_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            N_Tutoria oTutoria = new N_Tutoria();
+            textId.Text = oTutoria.New().ToString();
         }
     }
 }
