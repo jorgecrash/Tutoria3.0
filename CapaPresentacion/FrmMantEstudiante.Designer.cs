@@ -66,6 +66,7 @@ namespace CapaPresentacion
             this.textCodigo = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtSemestreActivo = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.topFormulario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -96,7 +97,7 @@ namespace CapaPresentacion
             this.topFormulario.Dock = System.Windows.Forms.DockStyle.Top;
             this.topFormulario.Location = new System.Drawing.Point(0, 0);
             this.topFormulario.Name = "topFormulario";
-            this.topFormulario.Size = new System.Drawing.Size(573, 36);
+            this.topFormulario.Size = new System.Drawing.Size(1144, 25);
             this.topFormulario.TabIndex = 0;
             this.topFormulario.Paint += new System.Windows.Forms.PaintEventHandler(this.topFormulario_Paint);
             // 
@@ -105,7 +106,7 @@ namespace CapaPresentacion
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Centaur", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(28, 9);
+            this.label1.Location = new System.Drawing.Point(15, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 17);
             this.label1.TabIndex = 1;
@@ -116,7 +117,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.cerrar;
-            this.pictureBox1.Location = new System.Drawing.Point(552, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(1123, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(18, 23);
             this.pictureBox1.TabIndex = 0;
@@ -221,6 +222,7 @@ namespace CapaPresentacion
             // 
             this.dgvDatosCSV.AllowUserToAddRows = false;
             this.dgvDatosCSV.AllowUserToDeleteRows = false;
+            this.dgvDatosCSV.BackgroundColor = System.Drawing.Color.White;
             this.dgvDatosCSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDatosCSV.Location = new System.Drawing.Point(6, 65);
             this.dgvDatosCSV.Margin = new System.Windows.Forms.Padding(2);
@@ -245,13 +247,14 @@ namespace CapaPresentacion
             // 
             // btnExportarCSV
             // 
-            this.btnExportarCSV.Location = new System.Drawing.Point(426, 31);
+            this.btnExportarCSV.Location = new System.Drawing.Point(421, 27);
             this.btnExportarCSV.Margin = new System.Windows.Forms.Padding(2);
             this.btnExportarCSV.Name = "btnExportarCSV";
             this.btnExportarCSV.Size = new System.Drawing.Size(119, 30);
             this.btnExportarCSV.TabIndex = 50;
             this.btnExportarCSV.Text = "Exportar CSV";
             this.btnExportarCSV.UseVisualStyleBackColor = true;
+            this.btnExportarCSV.Click += new System.EventHandler(this.btnExportarCSV_Click);
             // 
             // groupBox2
             // 
@@ -260,12 +263,12 @@ namespace CapaPresentacion
             this.groupBox2.Controls.Add(this.dgvDatosCSV);
             this.groupBox2.Controls.Add(this.lblUbicacionCSV);
             this.groupBox2.Controls.Add(this.pictureBox5);
-            this.groupBox2.Location = new System.Drawing.Point(12, 418);
+            this.groupBox2.Location = new System.Drawing.Point(577, 50);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(545, 268);
+            this.groupBox2.Size = new System.Drawing.Size(556, 268);
             this.groupBox2.TabIndex = 54;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Datos Desde CSV";
             // 
             // label4
             // 
@@ -335,9 +338,10 @@ namespace CapaPresentacion
             this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardar.BorderRadius = 0;
-            this.btnGuardar.ButtonText = "               GUARDAR";
+            this.btnGuardar.ButtonText = "                                                       Guardar";
             this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardar.DisabledColor = System.Drawing.Color.Gray;
+            this.btnGuardar.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnGuardar.Iconcolor = System.Drawing.Color.Transparent;
             this.btnGuardar.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Iconimage")));
             this.btnGuardar.Iconimage_right = null;
@@ -350,16 +354,16 @@ namespace CapaPresentacion
             this.btnGuardar.IconVisible = true;
             this.btnGuardar.IconZoom = 90D;
             this.btnGuardar.IsTab = false;
-            this.btnGuardar.Location = new System.Drawing.Point(143, 307);
+            this.btnGuardar.Location = new System.Drawing.Point(3, 326);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.btnGuardar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.btnGuardar.OnHoverTextColor = System.Drawing.Color.White;
             this.btnGuardar.selected = false;
-            this.btnGuardar.Size = new System.Drawing.Size(272, 33);
+            this.btnGuardar.Size = new System.Drawing.Size(533, 33);
             this.btnGuardar.TabIndex = 10;
-            this.btnGuardar.Text = "               GUARDAR";
+            this.btnGuardar.Text = "                                                       Guardar";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGuardar.Textcolor = System.Drawing.Color.White;
             this.btnGuardar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -484,13 +488,23 @@ namespace CapaPresentacion
             this.txtSemestreActivo.Size = new System.Drawing.Size(215, 22);
             this.txtSemestreActivo.TabIndex = 45;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 418);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1144, 26);
+            this.panel1.TabIndex = 55;
+            // 
             // FrmMantEstudiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.SeaShell;
-            this.ClientSize = new System.Drawing.Size(573, 690);
+            this.ClientSize = new System.Drawing.Size(1144, 444);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.topFormulario);
@@ -555,5 +569,6 @@ namespace CapaPresentacion
         private System.Windows.Forms.Button btnGuardarDatosCSV;
         private System.Windows.Forms.Button btnExportarCSV;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Panel panel1;
     }
 }
