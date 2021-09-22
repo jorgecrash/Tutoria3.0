@@ -44,13 +44,13 @@ namespace CapaPresentacion
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.TablaRegistro = new System.Windows.Forms.DataGridView();
+            this.TablaFicha = new System.Windows.Forms.DataGridView();
             this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel_Principal.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TablaRegistro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TablaFicha)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -73,7 +73,7 @@ namespace CapaPresentacion
             // 
             // panel_Principal
             // 
-            this.panel_Principal.Controls.Add(this.TablaRegistro);
+            this.panel_Principal.Controls.Add(this.TablaFicha);
             this.panel_Principal.Controls.Add(this.panel8);
             this.panel_Principal.Controls.Add(this.panel7);
             this.panel_Principal.Controls.Add(this.panel9);
@@ -215,18 +215,18 @@ namespace CapaPresentacion
             this.panel1.Size = new System.Drawing.Size(1040, 19);
             this.panel1.TabIndex = 8;
             // 
-            // TablaRegistro
+            // TablaFicha
             // 
-            this.TablaRegistro.AllowUserToAddRows = false;
-            this.TablaRegistro.AllowUserToOrderColumns = true;
-            this.TablaRegistro.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.TablaRegistro.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.TablaRegistro.BackgroundColor = System.Drawing.Color.White;
-            this.TablaRegistro.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TablaRegistro.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.TablaRegistro.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.TablaRegistro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaRegistro.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.TablaFicha.AllowUserToAddRows = false;
+            this.TablaFicha.AllowUserToOrderColumns = true;
+            this.TablaFicha.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.TablaFicha.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
+            this.TablaFicha.BackgroundColor = System.Drawing.Color.White;
+            this.TablaFicha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TablaFicha.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.TablaFicha.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.TablaFicha.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.TablaFicha.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.EDITAR,
             this.ELIMINAR});
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -237,16 +237,16 @@ namespace CapaPresentacion
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TablaRegistro.DefaultCellStyle = dataGridViewCellStyle1;
-            this.TablaRegistro.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TablaRegistro.Location = new System.Drawing.Point(24, 95);
-            this.TablaRegistro.Name = "TablaRegistro";
-            this.TablaRegistro.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.TablaRegistro.RowHeadersVisible = false;
-            this.TablaRegistro.RowHeadersWidth = 51;
-            this.TablaRegistro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.TablaRegistro.Size = new System.Drawing.Size(992, 478);
-            this.TablaRegistro.TabIndex = 36;
+            this.TablaFicha.DefaultCellStyle = dataGridViewCellStyle1;
+            this.TablaFicha.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TablaFicha.Location = new System.Drawing.Point(24, 95);
+            this.TablaFicha.Name = "TablaFicha";
+            this.TablaFicha.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.TablaFicha.RowHeadersVisible = false;
+            this.TablaFicha.RowHeadersWidth = 51;
+            this.TablaFicha.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.TablaFicha.Size = new System.Drawing.Size(992, 478);
+            this.TablaFicha.TabIndex = 36;
             // 
             // EDITAR
             // 
@@ -278,7 +278,7 @@ namespace CapaPresentacion
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TablaRegistro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TablaFicha)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -298,7 +298,7 @@ namespace CapaPresentacion
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.TextBox Buscar;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.DataGridView TablaRegistro;
+        public System.Windows.Forms.DataGridView TablaFicha;
         private System.Windows.Forms.DataGridViewImageColumn EDITAR;
         private System.Windows.Forms.DataGridViewImageColumn ELIMINAR;
     }
