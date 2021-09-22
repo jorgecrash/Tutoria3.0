@@ -147,6 +147,16 @@ namespace CapaPresentacion
             N_Tutoria oTutoria = new N_Tutoria();
             textId.Text = oTutoria.New().ToString();
         }
+
+        private void dtpHora_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

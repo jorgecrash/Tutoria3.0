@@ -280,7 +280,7 @@ namespace CapaPresentacion
             this.btnFicha.IconVisible = true;
             this.btnFicha.IconZoom = 40D;
             this.btnFicha.IsTab = false;
-            this.btnFicha.Location = new System.Drawing.Point(3, 421);
+            this.btnFicha.Location = new System.Drawing.Point(3, 236);
             this.btnFicha.Name = "btnFicha";
             this.btnFicha.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
             this.btnFicha.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(79)))), ((int)(((byte)(111)))));
@@ -297,7 +297,7 @@ namespace CapaPresentacion
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(123)))), ((int)(((byte)(169)))));
-            this.pictureBox8.Location = new System.Drawing.Point(0, 421);
+            this.pictureBox8.Location = new System.Drawing.Point(0, 236);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(3, 37);
             this.pictureBox8.TabIndex = 18;

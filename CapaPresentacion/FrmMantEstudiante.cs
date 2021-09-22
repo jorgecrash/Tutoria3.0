@@ -110,7 +110,7 @@ namespace CapaPresentacion
 
         private void btnExportarCSV_Click(object sender, EventArgs e)
         {
-            ofdInsertar.ShowDialog();
+            if (ofdInsertar.ShowDialog() == DialogResult.Cancel) return;
             lblUbicacionCSV.Text = ofdInsertar.FileName;//muestra el nombre del archivo en un label
             lblUbicacionCSV.Visible = true;
             DatosCSV(lblUbicacionCSV.Text);
@@ -187,6 +187,26 @@ namespace CapaPresentacion
         private void FrmMantEstudiante_Load(object sender, EventArgs e)
         {
             dgvDatosCSV.AllowUserToAddRows = false;
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIdEP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Id_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void topFormulario_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
