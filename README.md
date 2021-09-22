@@ -46,7 +46,7 @@ FUNCIONES:
 *MAIN
  -Estudiantes,Profesores,Tutoria,Tutorandos
  
- ![image](https://user-images.githubusercontent.com/72510761/134268880-63c2c7c7-2e6b-4e9e-88aa-5c414e2b64c6.png)
+ ![image](https://user-images.githubusercontent.com/72510761/134386280-19458fe4-44e0-4f37-86be-5a1ff68de766.png)
 
 
 
