@@ -30,7 +30,7 @@ namespace CapaPresentacion
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEstudiante));
             this.gunaElipse2 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.textBuscar = new System.Windows.Forms.TextBox();
@@ -68,7 +68,7 @@ namespace CapaPresentacion
             // textBuscar
             // 
             this.textBuscar.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBuscar.Location = new System.Drawing.Point(42, 27);
+            this.textBuscar.Location = new System.Drawing.Point(64, 24);
             this.textBuscar.Multiline = true;
             this.textBuscar.Name = "textBuscar";
             this.textBuscar.Size = new System.Drawing.Size(304, 30);
@@ -125,15 +125,15 @@ namespace CapaPresentacion
             this.TablaEstudiante.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.EDITAR,
             this.ELIMINAR});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TablaEstudiante.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(8);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TablaEstudiante.DefaultCellStyle = dataGridViewCellStyle3;
             this.TablaEstudiante.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TablaEstudiante.Location = new System.Drawing.Point(5, 76);
             this.TablaEstudiante.Name = "TablaEstudiante";
@@ -214,7 +214,7 @@ namespace CapaPresentacion
             this.btnNuevoEstudiante.IconVisible = true;
             this.btnNuevoEstudiante.IconZoom = 30D;
             this.btnNuevoEstudiante.IsTab = false;
-            this.btnNuevoEstudiante.Location = new System.Drawing.Point(367, 27);
+            this.btnNuevoEstudiante.Location = new System.Drawing.Point(389, 24);
             this.btnNuevoEstudiante.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevoEstudiante.Name = "btnNuevoEstudiante";
             this.btnNuevoEstudiante.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
@@ -233,7 +233,7 @@ namespace CapaPresentacion
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.luupaaaa;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 27);
+            this.pictureBox2.Location = new System.Drawing.Point(28, 24);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(30, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

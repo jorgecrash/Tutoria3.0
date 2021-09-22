@@ -59,33 +59,7 @@ namespace CapaPresentacion
 
         private void TablaTutoria_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (TablaTutoria.Rows[e.RowIndex].Cells["eliminar"].Selected)
-            {
-                Form message = new FrmInformation("¿ESTAS SEGURO DE ELIMINAR LA TUTORIA?");
-                DialogResult result = message.ShowDialog();
 
-                if (result == DialogResult.OK)
-                {
-                    string delete = TablaTutoria.Rows[e.RowIndex].Cells[2].Value.ToString();
-                    oTutoria.DeletingTutoria(delete);
-                    FrmSuccess.confirmacionForm("ELIMINADO");
-                    MostrarTablaTutoria();
-                    // ShowTotal();
-                }
-            }
-            else if (TablaTutoria.Rows[e.RowIndex].Cells["editar"].Selected)
-            {
-                FrmMantTutoria frm = new FrmMantTutoria();
-                frm.Update = true;
-                frm.IdTutoria = TablaTutoria.Rows[e.RowIndex].Cells["IdTutoria"].Value.ToString();
-                //frm.textId.Text = TablaTutoria.Rows[e.RowIndex].Cells["IdTutoria"].Value.ToString();
-                frm.textIdDocente.Text = TablaTutoria.Rows[e.RowIndex].Cells["IdDocente"].Value.ToString();
-                //frm.textHorario.Text = TablaTutoria.Rows[e.RowIndex].Cells["Horario"].Value.ToString();
-                
-                frm.ShowDialog();
-                MostrarTablaTutoria();
-                //ShowTotal();
-            }
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -103,5 +77,14 @@ namespace CapaPresentacion
 
         }
 
+        private void TablaTutoria_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

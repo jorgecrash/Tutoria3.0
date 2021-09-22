@@ -41,15 +41,15 @@ namespace CapaPresentacion
             this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.textBuscar = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnDocentes = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.textBuscar = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel_principal.SuspendLayout();
             this.panel_principal_medio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TablaDocente)).BeginInit();
@@ -174,6 +174,27 @@ namespace CapaPresentacion
             this.panel5.TabIndex = 24;
             this.panel5.Click += new System.EventHandler(this.panel9_Click);
             // 
+            // textBuscar
+            // 
+            this.textBuscar.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBuscar.Location = new System.Drawing.Point(63, 23);
+            this.textBuscar.Multiline = true;
+            this.textBuscar.Name = "textBuscar";
+            this.textBuscar.Size = new System.Drawing.Size(304, 30);
+            this.textBuscar.TabIndex = 31;
+            this.textBuscar.Click += new System.EventHandler(this.textBuscar_TextChanged);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.SystemColors.Window;
+            this.pictureBox3.Image = global::CapaPresentacion.Properties.Resources.luupaaaa;
+            this.pictureBox3.Location = new System.Drawing.Point(27, 23);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 32;
+            this.pictureBox3.TabStop = false;
+            // 
             // btnDocentes
             // 
             this.btnDocentes.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(128)))), ((int)(((byte)(175)))));
@@ -197,7 +218,7 @@ namespace CapaPresentacion
             this.btnDocentes.IconZoom = 45D;
             this.btnDocentes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnDocentes.IsTab = false;
-            this.btnDocentes.Location = new System.Drawing.Point(368, 26);
+            this.btnDocentes.Location = new System.Drawing.Point(389, 23);
             this.btnDocentes.Margin = new System.Windows.Forms.Padding(4);
             this.btnDocentes.Name = "btnDocentes";
             this.btnDocentes.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
@@ -238,15 +259,6 @@ namespace CapaPresentacion
             this.panel2.Size = new System.Drawing.Size(1040, 19);
             this.panel2.TabIndex = 1;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.SeaShell;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1040, 19);
-            this.panel1.TabIndex = 0;
-            // 
             // bunifuElipse1
             // 
             this.bunifuElipse1.ElipseRadius = 5;
@@ -257,26 +269,14 @@ namespace CapaPresentacion
             this.bunifuElipse2.ElipseRadius = 0;
             this.bunifuElipse2.TargetControl = this.panel_principal_medio;
             // 
-            // textBuscar
+            // panel1
             // 
-            this.textBuscar.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBuscar.Location = new System.Drawing.Point(42, 26);
-            this.textBuscar.Multiline = true;
-            this.textBuscar.Name = "textBuscar";
-            this.textBuscar.Size = new System.Drawing.Size(304, 30);
-            this.textBuscar.TabIndex = 31;
-            this.textBuscar.Click += new System.EventHandler(this.textBuscar_TextChanged);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.Window;
-            this.pictureBox3.Image = global::CapaPresentacion.Properties.Resources.luupaaaa;
-            this.pictureBox3.Location = new System.Drawing.Point(6, 26);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 32;
-            this.pictureBox3.TabStop = false;
+            this.panel1.BackColor = System.Drawing.Color.SeaShell;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1040, 19);
+            this.panel1.TabIndex = 0;
             // 
             // FrmDocente
             // 
@@ -300,7 +300,6 @@ namespace CapaPresentacion
         #endregion
 
         private System.Windows.Forms.Panel panel_principal;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
@@ -317,5 +316,6 @@ namespace CapaPresentacion
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.TextBox textBuscar;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel1;
     }
 }
