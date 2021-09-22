@@ -64,7 +64,7 @@ namespace CapaDatos
             SqlCommand cmd = new SqlCommand("SP_INSERTARESTUDIANTE", conexion);
             cmd.CommandType = CommandType.StoredProcedure;
             conexion.Open();
-            //cmd.Parameters.AddWithValue("@IDESTUDIANTE", estudiante.CodEstudiante);
+            cmd.Parameters.AddWithValue("@IDESTUDIANTE", estudiante.CodEstudiante);
             cmd.Parameters.AddWithValue("@NOMBRES", estudiante.Nombres);
             cmd.Parameters.AddWithValue("@APELLIDOS", estudiante.Apellidos);
             cmd.Parameters.AddWithValue("@SEMESTREACTIVO", estudiante.SemestreActivo);

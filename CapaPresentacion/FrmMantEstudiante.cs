@@ -41,9 +41,10 @@ namespace CapaPresentacion
             if (Update == false)
             {
                 try
-                { 
+                {
+                    entities.CodEstudiante =(textCodigo.Text);
                     entities.Nombres = textNombres.Text;
-                    //   entities.IdEstudiante = Convert.ToInt32(textCodigo.Text);
+                    //   
                     entities.Apellidos = textApellidos.Text;
                     entities.EscuelaProfesional = textEscuela.Text;
                     entities.CodEP = txtIdEP.Text;
@@ -63,7 +64,7 @@ namespace CapaPresentacion
             {
                 try
                 {
-                    entities.CodEstudiante = IdEstudiante;
+                    entities.CodEstudiante = textCodigo.Text;
                     entities.Nombres = textNombres.Text;
                     // entities.IdEstudiante = Convert.ToInt32(textCodigo.Text);
                     entities.Apellidos = textApellidos.Text;
