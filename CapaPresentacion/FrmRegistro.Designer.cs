@@ -29,8 +29,8 @@ namespace CapaPresentacion
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegistro));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel_Principal = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -44,9 +44,9 @@ namespace CapaPresentacion
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.TablaRegistro = new System.Windows.Forms.DataGridView();
-            this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
+            this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
+            this.TablaRegistro = new System.Windows.Forms.DataGridView();
             this.panel_Principal.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -55,9 +55,9 @@ namespace CapaPresentacion
             // 
             // panel_Principal
             // 
-            this.panel_Principal.Controls.Add(this.TablaRegistro);
             this.panel_Principal.Controls.Add(this.panel7);
             this.panel_Principal.Controls.Add(this.panel8);
+            this.panel_Principal.Controls.Add(this.TablaRegistro);
             this.panel_Principal.Controls.Add(this.panel9);
             this.panel_Principal.Controls.Add(this.panel5);
             this.panel_Principal.Controls.Add(this.panel4);
@@ -214,6 +214,22 @@ namespace CapaPresentacion
             this.panel1.Size = new System.Drawing.Size(1040, 19);
             this.panel1.TabIndex = 8;
             // 
+            // ELIMINAR
+            // 
+            this.ELIMINAR.HeaderText = "ELIMINAR";
+            this.ELIMINAR.Image = ((System.Drawing.Image)(resources.GetObject("ELIMINAR.Image")));
+            this.ELIMINAR.MinimumWidth = 6;
+            this.ELIMINAR.Name = "ELIMINAR";
+            this.ELIMINAR.Width = 80;
+            // 
+            // EDITAR
+            // 
+            this.EDITAR.HeaderText = "EDITAR";
+            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
+            this.EDITAR.MinimumWidth = 6;
+            this.EDITAR.Name = "EDITAR";
+            this.EDITAR.Width = 69;
+            // 
             // TablaRegistro
             // 
             this.TablaRegistro.AllowUserToAddRows = false;
@@ -238,30 +254,15 @@ namespace CapaPresentacion
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.TablaRegistro.DefaultCellStyle = dataGridViewCellStyle1;
             this.TablaRegistro.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TablaRegistro.Location = new System.Drawing.Point(24, 95);
+            this.TablaRegistro.Location = new System.Drawing.Point(19, 95);
             this.TablaRegistro.Name = "TablaRegistro";
             this.TablaRegistro.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.TablaRegistro.RowHeadersVisible = false;
             this.TablaRegistro.RowHeadersWidth = 51;
             this.TablaRegistro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.TablaRegistro.Size = new System.Drawing.Size(992, 478);
-            this.TablaRegistro.TabIndex = 36;
-            // 
-            // EDITAR
-            // 
-            this.EDITAR.HeaderText = "EDITAR";
-            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
-            this.EDITAR.MinimumWidth = 6;
-            this.EDITAR.Name = "EDITAR";
-            this.EDITAR.Width = 69;
-            // 
-            // ELIMINAR
-            // 
-            this.ELIMINAR.HeaderText = "ELIMINAR";
-            this.ELIMINAR.Image = ((System.Drawing.Image)(resources.GetObject("ELIMINAR.Image")));
-            this.ELIMINAR.MinimumWidth = 6;
-            this.ELIMINAR.Name = "ELIMINAR";
-            this.ELIMINAR.Width = 80;
+            this.TablaRegistro.Size = new System.Drawing.Size(1002, 478);
+            this.TablaRegistro.TabIndex = 33;
+            this.TablaRegistro.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaRegistro_CellContentClick);
             // 
             // FrmRegistro
             // 
