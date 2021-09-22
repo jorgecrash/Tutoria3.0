@@ -141,7 +141,7 @@ namespace CapaPresentacion
             this.btnTutoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
             this.btnTutoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTutoria.BorderRadius = 0;
-            this.btnTutoria.ButtonText = "          Tutoria";
+            this.btnTutoria.ButtonText = "        Tutoria";
             this.btnTutoria.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTutoria.DisabledColor = System.Drawing.Color.Gray;
             this.btnTutoria.Iconcolor = System.Drawing.Color.Transparent;
@@ -165,7 +165,7 @@ namespace CapaPresentacion
             this.btnTutoria.selected = false;
             this.btnTutoria.Size = new System.Drawing.Size(244, 38);
             this.btnTutoria.TabIndex = 2;
-            this.btnTutoria.Text = "          Tutoria";
+            this.btnTutoria.Text = "        Tutoria";
             this.btnTutoria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTutoria.Textcolor = System.Drawing.Color.White;
             this.btnTutoria.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -182,7 +182,7 @@ namespace CapaPresentacion
             this.btnTutorados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
             this.btnTutorados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTutorados.BorderRadius = 0;
-            this.btnTutorados.ButtonText = "          Tutorados";
+            this.btnTutorados.ButtonText = "        Tutorados";
             this.btnTutorados.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTutorados.DisabledColor = System.Drawing.Color.Gray;
             this.btnTutorados.Iconcolor = System.Drawing.Color.Transparent;
@@ -206,7 +206,7 @@ namespace CapaPresentacion
             this.btnTutorados.selected = false;
             this.btnTutorados.Size = new System.Drawing.Size(244, 38);
             this.btnTutorados.TabIndex = 7;
-            this.btnTutorados.Text = "          Tutorados";
+            this.btnTutorados.Text = "        Tutorados";
             this.btnTutorados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTutorados.Textcolor = System.Drawing.Color.White;
             this.btnTutorados.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -265,7 +265,7 @@ namespace CapaPresentacion
             this.btnFicha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
             this.btnFicha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnFicha.BorderRadius = 0;
-            this.btnFicha.ButtonText = "           Ficha";
+            this.btnFicha.ButtonText = "         Ficha";
             this.btnFicha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFicha.DisabledColor = System.Drawing.Color.Gray;
             this.btnFicha.Iconcolor = System.Drawing.Color.Transparent;
@@ -288,7 +288,7 @@ namespace CapaPresentacion
             this.btnFicha.selected = false;
             this.btnFicha.Size = new System.Drawing.Size(241, 38);
             this.btnFicha.TabIndex = 13;
-            this.btnFicha.Text = "           Ficha";
+            this.btnFicha.Text = "         Ficha";
             this.btnFicha.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFicha.Textcolor = System.Drawing.Color.White;
             this.btnFicha.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

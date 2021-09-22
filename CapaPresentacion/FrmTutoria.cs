@@ -57,6 +57,41 @@ namespace CapaPresentacion
             MostrarTablaTutoria();
         }
 
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Salir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TablaTutoria_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void TablaTutoria_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (TablaTutoria.Rows[e.RowIndex].Cells["eliminar"].Selected)
@@ -81,27 +116,11 @@ namespace CapaPresentacion
                 //frm.textId.Text = TablaTutoria.Rows[e.RowIndex].Cells["IdTutoria"].Value.ToString();
                 frm.textIdDocente.Text = TablaTutoria.Rows[e.RowIndex].Cells["IdDocente"].Value.ToString();
                 //frm.textHorario.Text = TablaTutoria.Rows[e.RowIndex].Cells["Horario"].Value.ToString();
-                
+
                 frm.ShowDialog();
                 MostrarTablaTutoria();
                 //ShowTotal();
             }
         }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Salir_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }
