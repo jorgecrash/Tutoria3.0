@@ -30,7 +30,7 @@ namespace CapaPresentacion
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDocente));
             this.panel_principal = new System.Windows.Forms.Panel();
             this.panel_principal_medio = new System.Windows.Forms.Panel();
@@ -115,15 +115,15 @@ namespace CapaPresentacion
             this.TablaDocente.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.EDITAR,
             this.ELIMINAR});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 11.25F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(8);
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TablaDocente.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TablaDocente.DefaultCellStyle = dataGridViewCellStyle1;
             this.TablaDocente.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TablaDocente.Location = new System.Drawing.Point(0, 76);
             this.TablaDocente.Name = "TablaDocente";
@@ -182,7 +182,7 @@ namespace CapaPresentacion
             this.textBuscar.Name = "textBuscar";
             this.textBuscar.Size = new System.Drawing.Size(304, 30);
             this.textBuscar.TabIndex = 31;
-            this.textBuscar.Click += new System.EventHandler(this.textBuscar_TextChanged);
+            this.textBuscar.TextChanged += new System.EventHandler(this.textBuscar_TextChanged);
             // 
             // pictureBox3
             // 

@@ -34,6 +34,9 @@ namespace CapaPresentacion
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel_Principal = new System.Windows.Forms.Panel();
+            this.TablaFicha = new System.Windows.Forms.DataGridView();
+            this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
+            this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -44,13 +47,10 @@ namespace CapaPresentacion
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.TablaFicha = new System.Windows.Forms.DataGridView();
-            this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
-            this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel_Principal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TablaFicha)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TablaFicha)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -87,6 +87,55 @@ namespace CapaPresentacion
             this.panel_Principal.Name = "panel_Principal";
             this.panel_Principal.Size = new System.Drawing.Size(1040, 612);
             this.panel_Principal.TabIndex = 1;
+            // 
+            // TablaFicha
+            // 
+            this.TablaFicha.AllowUserToAddRows = false;
+            this.TablaFicha.AllowUserToOrderColumns = true;
+            this.TablaFicha.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.TablaFicha.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
+            this.TablaFicha.BackgroundColor = System.Drawing.Color.White;
+            this.TablaFicha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TablaFicha.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.TablaFicha.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.TablaFicha.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.TablaFicha.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.EDITAR,
+            this.ELIMINAR});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TablaFicha.DefaultCellStyle = dataGridViewCellStyle1;
+            this.TablaFicha.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TablaFicha.Location = new System.Drawing.Point(24, 95);
+            this.TablaFicha.Name = "TablaFicha";
+            this.TablaFicha.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.TablaFicha.RowHeadersVisible = false;
+            this.TablaFicha.RowHeadersWidth = 51;
+            this.TablaFicha.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.TablaFicha.Size = new System.Drawing.Size(992, 478);
+            this.TablaFicha.TabIndex = 36;
+            // 
+            // EDITAR
+            // 
+            this.EDITAR.HeaderText = "EDITAR";
+            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
+            this.EDITAR.MinimumWidth = 6;
+            this.EDITAR.Name = "EDITAR";
+            this.EDITAR.Width = 69;
+            // 
+            // ELIMINAR
+            // 
+            this.ELIMINAR.HeaderText = "ELIMINAR";
+            this.ELIMINAR.Image = ((System.Drawing.Image)(resources.GetObject("ELIMINAR.Image")));
+            this.ELIMINAR.MinimumWidth = 6;
+            this.ELIMINAR.Name = "ELIMINAR";
+            this.ELIMINAR.Width = 80;
             // 
             // panel8
             // 
@@ -185,6 +234,7 @@ namespace CapaPresentacion
             this.Buscar.Size = new System.Drawing.Size(304, 30);
             this.Buscar.TabIndex = 37;
             this.Buscar.Click += new System.EventHandler(this.textBuscar_TextChanged);
+            this.Buscar.TextChanged += new System.EventHandler(this.textBuscar_TextChanged);
             // 
             // pictureBox3
             // 
@@ -215,55 +265,6 @@ namespace CapaPresentacion
             this.panel1.Size = new System.Drawing.Size(1040, 19);
             this.panel1.TabIndex = 8;
             // 
-            // TablaFicha
-            // 
-            this.TablaFicha.AllowUserToAddRows = false;
-            this.TablaFicha.AllowUserToOrderColumns = true;
-            this.TablaFicha.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.TablaFicha.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.TablaFicha.BackgroundColor = System.Drawing.Color.White;
-            this.TablaFicha.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TablaFicha.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.TablaFicha.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.TablaFicha.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaFicha.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.EDITAR,
-            this.ELIMINAR});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TablaFicha.DefaultCellStyle = dataGridViewCellStyle1;
-            this.TablaFicha.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TablaFicha.Location = new System.Drawing.Point(24, 95);
-            this.TablaFicha.Name = "TablaFicha";
-            this.TablaFicha.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.TablaFicha.RowHeadersVisible = false;
-            this.TablaFicha.RowHeadersWidth = 51;
-            this.TablaFicha.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.TablaFicha.Size = new System.Drawing.Size(992, 478);
-            this.TablaFicha.TabIndex = 36;
-            // 
-            // EDITAR
-            // 
-            this.EDITAR.HeaderText = "EDITAR";
-            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
-            this.EDITAR.MinimumWidth = 6;
-            this.EDITAR.Name = "EDITAR";
-            this.EDITAR.Width = 69;
-            // 
-            // ELIMINAR
-            // 
-            this.ELIMINAR.HeaderText = "ELIMINAR";
-            this.ELIMINAR.Image = ((System.Drawing.Image)(resources.GetObject("ELIMINAR.Image")));
-            this.ELIMINAR.MinimumWidth = 6;
-            this.ELIMINAR.Name = "ELIMINAR";
-            this.ELIMINAR.Width = 80;
-            // 
             // FrmFicha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -275,10 +276,10 @@ namespace CapaPresentacion
             this.Text = "FrmFicha";
             this.Load += new System.EventHandler(this.FrmFicha_Load);
             this.panel_Principal.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.TablaFicha)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TablaFicha)).EndInit();
             this.ResumeLayout(false);
 
         }
