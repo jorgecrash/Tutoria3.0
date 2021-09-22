@@ -188,5 +188,20 @@ namespace CapaPresentacion
         {
             dgvDatosCSV.AllowUserToAddRows = false;
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIdEP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Id_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
