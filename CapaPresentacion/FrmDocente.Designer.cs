@@ -30,33 +30,31 @@ namespace CapaPresentacion
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDocente));
             this.panel_principal = new System.Windows.Forms.Panel();
             this.panel_principal_medio = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.TablaDocente = new System.Windows.Forms.DataGridView();
             this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.ELIMINAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBuscar = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnDocentes = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.btnDocentes = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel_principal.SuspendLayout();
             this.panel_principal_medio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TablaDocente)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_principal
@@ -85,6 +83,24 @@ namespace CapaPresentacion
             this.panel_principal_medio.Size = new System.Drawing.Size(1002, 574);
             this.panel_principal_medio.TabIndex = 4;
             // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel7.Location = new System.Drawing.Point(0, 76);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(5, 478);
+            this.panel7.TabIndex = 30;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel8.Location = new System.Drawing.Point(997, 76);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(5, 478);
+            this.panel8.TabIndex = 29;
+            // 
             // TablaDocente
             // 
             this.TablaDocente.AllowUserToAddRows = false;
@@ -99,15 +115,15 @@ namespace CapaPresentacion
             this.TablaDocente.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.EDITAR,
             this.ELIMINAR});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TablaDocente.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(8);
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TablaDocente.DefaultCellStyle = dataGridViewCellStyle4;
             this.TablaDocente.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TablaDocente.Location = new System.Drawing.Point(0, 76);
             this.TablaDocente.Name = "TablaDocente";
@@ -148,10 +164,9 @@ namespace CapaPresentacion
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.panel5.Controls.Add(this.textBox1);
+            this.panel5.Controls.Add(this.pictureBox3);
             this.panel5.Controls.Add(this.btnDocentes);
-            this.panel5.Controls.Add(this.textBuscar);
-            this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Controls.Add(this.pictureBox1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
@@ -159,37 +174,42 @@ namespace CapaPresentacion
             this.panel5.TabIndex = 24;
             this.panel5.Click += new System.EventHandler(this.panel9_Click);
             // 
-            // textBuscar
+            // btnDocentes
             // 
-            this.textBuscar.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBuscar.Location = new System.Drawing.Point(68, 25);
-            this.textBuscar.Name = "textBuscar";
-            this.textBuscar.Size = new System.Drawing.Size(235, 21);
-            this.textBuscar.TabIndex = 7;
-            this.textBuscar.TextChanged += new System.EventHandler(this.textBuscar_TextChanged);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(27, 19);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.SlateGray;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(17, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(300, 44);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.btnDocentes.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(128)))), ((int)(((byte)(175)))));
+            this.btnDocentes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.btnDocentes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnDocentes.BorderRadius = 0;
+            this.btnDocentes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnDocentes.ButtonText = "  Profesores";
+            this.btnDocentes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDocentes.DisabledColor = System.Drawing.Color.Gray;
+            this.btnDocentes.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnDocentes.Iconimage = global::CapaPresentacion.Properties.Resources.profesor_en_la_pizarra_0_44_0_66_1;
+            this.btnDocentes.Iconimage_right = null;
+            this.btnDocentes.Iconimage_right_Selected = null;
+            this.btnDocentes.Iconimage_Selected = null;
+            this.btnDocentes.IconMarginLeft = 10;
+            this.btnDocentes.IconMarginRight = 0;
+            this.btnDocentes.IconRightVisible = true;
+            this.btnDocentes.IconRightZoom = 0D;
+            this.btnDocentes.IconVisible = true;
+            this.btnDocentes.IconZoom = 45D;
+            this.btnDocentes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnDocentes.IsTab = false;
+            this.btnDocentes.Location = new System.Drawing.Point(368, 26);
+            this.btnDocentes.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDocentes.Name = "btnDocentes";
+            this.btnDocentes.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
+            this.btnDocentes.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(79)))), ((int)(((byte)(111)))));
+            this.btnDocentes.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnDocentes.selected = false;
+            this.btnDocentes.Size = new System.Drawing.Size(194, 30);
+            this.btnDocentes.TabIndex = 8;
+            this.btnDocentes.Text = "  Profesores";
+            this.btnDocentes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDocentes.Textcolor = System.Drawing.Color.White;
+            this.btnDocentes.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // panel4
             // 
@@ -237,60 +257,25 @@ namespace CapaPresentacion
             this.bunifuElipse2.ElipseRadius = 0;
             this.bunifuElipse2.TargetControl = this.panel_principal_medio;
             // 
-            // btnDocentes
+            // textBox1
             // 
-            this.btnDocentes.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(128)))), ((int)(((byte)(175)))));
-            this.btnDocentes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.btnDocentes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnDocentes.BorderRadius = 0;
-            this.btnDocentes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnDocentes.ButtonText = "  Profesores";
-            this.btnDocentes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDocentes.DisabledColor = System.Drawing.Color.Gray;
-            this.btnDocentes.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnDocentes.Iconimage = global::CapaPresentacion.Properties.Resources.profesor_en_la_pizarra_0_44_0_66_1;
-            this.btnDocentes.Iconimage_right = null;
-            this.btnDocentes.Iconimage_right_Selected = null;
-            this.btnDocentes.Iconimage_Selected = null;
-            this.btnDocentes.IconMarginLeft = 10;
-            this.btnDocentes.IconMarginRight = 0;
-            this.btnDocentes.IconRightVisible = true;
-            this.btnDocentes.IconRightZoom = 0D;
-            this.btnDocentes.IconVisible = true;
-            this.btnDocentes.IconZoom = 45D;
-            this.btnDocentes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnDocentes.IsTab = false;
-            this.btnDocentes.Location = new System.Drawing.Point(342, 19);
-            this.btnDocentes.Margin = new System.Windows.Forms.Padding(4);
-            this.btnDocentes.Name = "btnDocentes";
-            this.btnDocentes.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.btnDocentes.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(79)))), ((int)(((byte)(111)))));
-            this.btnDocentes.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnDocentes.selected = false;
-            this.btnDocentes.Size = new System.Drawing.Size(177, 30);
-            this.btnDocentes.TabIndex = 8;
-            this.btnDocentes.Text = "  Profesores";
-            this.btnDocentes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDocentes.Textcolor = System.Drawing.Color.White;
-            this.btnDocentes.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(42, 26);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(304, 30);
+            this.textBox1.TabIndex = 31;
             // 
-            // panel8
+            // pictureBox3
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel8.Location = new System.Drawing.Point(997, 76);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(5, 478);
-            this.panel8.TabIndex = 29;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel7.Location = new System.Drawing.Point(0, 76);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(5, 478);
-            this.panel7.TabIndex = 30;
+            this.pictureBox3.BackColor = System.Drawing.SystemColors.Window;
+            this.pictureBox3.Image = global::CapaPresentacion.Properties.Resources.luupaaaa;
+            this.pictureBox3.Location = new System.Drawing.Point(6, 26);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 32;
+            this.pictureBox3.TabStop = false;
             // 
             // FrmDocente
             // 
@@ -306,8 +291,7 @@ namespace CapaPresentacion
             ((System.ComponentModel.ISupportInitialize)(this.TablaDocente)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -324,14 +308,13 @@ namespace CapaPresentacion
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBuscar;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView TablaDocente;
         private System.Windows.Forms.DataGridViewImageColumn EDITAR;
         private System.Windows.Forms.DataGridViewImageColumn ELIMINAR;
         private Bunifu.Framework.UI.BunifuFlatButton btnDocentes;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
