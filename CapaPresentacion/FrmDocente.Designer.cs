@@ -30,7 +30,7 @@ namespace CapaPresentacion
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDocente));
             this.panel_principal = new System.Windows.Forms.Panel();
             this.panel_principal_medio = new System.Windows.Forms.Panel();
@@ -47,9 +47,9 @@ namespace CapaPresentacion
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel_principal.SuspendLayout();
             this.panel_principal_medio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TablaDocente)).BeginInit();
@@ -115,15 +115,15 @@ namespace CapaPresentacion
             this.TablaDocente.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.EDITAR,
             this.ELIMINAR});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TablaDocente.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(8);
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TablaDocente.DefaultCellStyle = dataGridViewCellStyle2;
             this.TablaDocente.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TablaDocente.Location = new System.Drawing.Point(0, 76);
             this.TablaDocente.Name = "TablaDocente";
@@ -215,7 +215,7 @@ namespace CapaPresentacion
             this.btnDocentes.IconRightVisible = true;
             this.btnDocentes.IconRightZoom = 0D;
             this.btnDocentes.IconVisible = true;
-            this.btnDocentes.IconZoom = 45D;
+            this.btnDocentes.IconZoom = 40D;
             this.btnDocentes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnDocentes.IsTab = false;
             this.btnDocentes.Location = new System.Drawing.Point(389, 23);
@@ -231,6 +231,7 @@ namespace CapaPresentacion
             this.btnDocentes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDocentes.Textcolor = System.Drawing.Color.White;
             this.btnDocentes.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDocentes.Click += new System.EventHandler(this.btnNuevoDocente_Click);
             // 
             // panel4
             // 
@@ -259,6 +260,15 @@ namespace CapaPresentacion
             this.panel2.Size = new System.Drawing.Size(1040, 19);
             this.panel2.TabIndex = 1;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.SeaShell;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1040, 19);
+            this.panel1.TabIndex = 0;
+            // 
             // bunifuElipse1
             // 
             this.bunifuElipse1.ElipseRadius = 5;
@@ -268,15 +278,6 @@ namespace CapaPresentacion
             // 
             this.bunifuElipse2.ElipseRadius = 0;
             this.bunifuElipse2.TargetControl = this.panel_principal_medio;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.SeaShell;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1040, 19);
-            this.panel1.TabIndex = 0;
             // 
             // FrmDocente
             // 

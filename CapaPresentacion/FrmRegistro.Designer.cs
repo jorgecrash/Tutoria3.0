@@ -197,11 +197,11 @@ namespace CapaPresentacion
             this.btnRegistrarEstudianteATutoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRegistrarEstudianteATutoria.BorderRadius = 0;
             this.btnRegistrarEstudianteATutoria.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnRegistrarEstudianteATutoria.ButtonText = "    Agregar Tutoria";
+            this.btnRegistrarEstudianteATutoria.ButtonText = "  Registrar Estudiante a Tutoria";
             this.btnRegistrarEstudianteATutoria.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegistrarEstudianteATutoria.DisabledColor = System.Drawing.Color.Gray;
             this.btnRegistrarEstudianteATutoria.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnRegistrarEstudianteATutoria.Iconimage = global::CapaPresentacion.Properties.Resources.discusion_1;
+            this.btnRegistrarEstudianteATutoria.Iconimage = global::CapaPresentacion.Properties.Resources.dos_usuarios_1;
             this.btnRegistrarEstudianteATutoria.Iconimage_right = null;
             this.btnRegistrarEstudianteATutoria.Iconimage_right_Selected = null;
             this.btnRegistrarEstudianteATutoria.Iconimage_Selected = null;
@@ -210,7 +210,7 @@ namespace CapaPresentacion
             this.btnRegistrarEstudianteATutoria.IconRightVisible = true;
             this.btnRegistrarEstudianteATutoria.IconRightZoom = 0D;
             this.btnRegistrarEstudianteATutoria.IconVisible = true;
-            this.btnRegistrarEstudianteATutoria.IconZoom = 45D;
+            this.btnRegistrarEstudianteATutoria.IconZoom = 40D;
             this.btnRegistrarEstudianteATutoria.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnRegistrarEstudianteATutoria.IsTab = false;
             this.btnRegistrarEstudianteATutoria.Location = new System.Drawing.Point(390, 24);
@@ -220,9 +220,9 @@ namespace CapaPresentacion
             this.btnRegistrarEstudianteATutoria.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(79)))), ((int)(((byte)(111)))));
             this.btnRegistrarEstudianteATutoria.OnHoverTextColor = System.Drawing.Color.White;
             this.btnRegistrarEstudianteATutoria.selected = false;
-            this.btnRegistrarEstudianteATutoria.Size = new System.Drawing.Size(194, 30);
+            this.btnRegistrarEstudianteATutoria.Size = new System.Drawing.Size(233, 30);
             this.btnRegistrarEstudianteATutoria.TabIndex = 36;
-            this.btnRegistrarEstudianteATutoria.Text = "    Agregar Tutoria";
+            this.btnRegistrarEstudianteATutoria.Text = "  Registrar Estudiante a Tutoria";
             this.btnRegistrarEstudianteATutoria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrarEstudianteATutoria.Textcolor = System.Drawing.Color.White;
             this.btnRegistrarEstudianteATutoria.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
