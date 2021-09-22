@@ -159,7 +159,7 @@ namespace CapaPresentacion
             this.TablaTutoria.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.TablaTutoria.Size = new System.Drawing.Size(992, 478);
             this.TablaTutoria.TabIndex = 40;
-            this.TablaTutoria.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaTutoria_CellContentClick_1);
+            this.TablaTutoria.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaTutoria_CellContentClick);
             // 
             // EDITAR
             // 
